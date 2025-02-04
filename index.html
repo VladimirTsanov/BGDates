@@ -7,23 +7,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="controls">
+    <label for="languageSelect">Изберете език:</label>
+    <select id="languageSelect">
+      <option value="bg">Български език</option>
+      <option value="en">English</option>
+    </select>
+
+    <label for="dateRange">Изберете диапазон от дати:</label>
+    <input type="number" id="startDate" placeholder="Начална година">
+    <input type="number" id="endDate" placeholder="Крайна година">
+    <div><button id="filterBtn">Филтър</button></div>
+    <button id="resetBtn">Изчисти филтрирането</button>
+
+
+
+    <label for="speedSlider">Скорост на карусела (сек.):</label>
+    <div class="slider-container">
+      <input type="range" id="speedSlider" min="1" max="15" step="1" value="6">
+      <span id="speedTooltip">6</span>
+    </div>
+  </div>
+
   <div class="carousel">
     <div class="carousel_container">
-      <div class="slide">
-        <img src="https://via.placeholder.com/600x300" alt="Историческа дата 1">
-        <h2>Дата 1</h2>
-        <p>Описание на историческа дата 1</p>
-      </div>
-      <div class="slide">
-        <img src="https://via.placeholder.com/600x300" alt="Историческа дата 2">
-        <h2>Дата 2</h2>
-        <p>Описание на историческа дата 2</p>
-      </div>
-      <div class="slide">
-        <img src="https://via.placeholder.com/600x300" alt="Историческа дата 3">
-        <h2>Дата 3</h2>
-        <p>Описание на историческа дата 3</p>
-      </div>
     </div>
     <button id="prevBtn">❮</button>
     <button id="nextBtn">❯</button>
