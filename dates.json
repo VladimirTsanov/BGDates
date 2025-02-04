@@ -1,20 +1,27 @@
 [
     {
       "date": "681",
-      "title": "Основаването на България",
-      "description": "Хан Аспарух основава България",
+      "title_bg": "Основаването на България",
+      "title_en": "The faoundation of Bulgaria",
+      "description_bg": "Хан Аспарух основава България",
+      "description_en": "Khan Asparuh founded Bulgaria",
       "image": "image1_here"
     },
     {
       "date": "864",
-      "title": "Покръстването на България",
-      "description": "Покръстването на българите и приемане на християнството",
+      "title_bg": "Покръстването на България",
+      "title_en": "The Baptism of Bulgaria",
+      "description_bg": "Покръстването на българите и приемане на християнството",
+      "description_en": "Medieval Bulgaria converted to Christianity",
       "image": "image2_here"
     },
     {
       "date": "1018",
-      "title": "България пада под Византийско робство",
-      "description": "Първото българско царство приключв с падането му под Византийско робство",
+      "title_bg": "България пада под Византийско робство",
+      "title_en": "Bulgaria falls under Byzantine slavery",
+      "description_bg": "Първото българско царство приключв с падането му под Византийско робство",
+      "description_en": "The first Bulgarian kingdom ended with its fall under Byzantine slavery",
       "image": "image3_here"
     }
   ]
+  
