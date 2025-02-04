@@ -1,21 +1,20 @@
 [
     {
-      "date": "681 г.",
+      "date": "681",
       "title": "Основаването на България",
       "description": "Хан Аспарух основава България",
-      "image": "https://drive.google.com/your-image-link"
+      "image": "image1_here"
     },
     {
-      "date": "864 г.",
+      "date": "864",
       "title": "Покръстването на България",
       "description": "Покръстването на българите и приемане на християнството",
-      "image": "https://drive.google.com/your-image-link"
+      "image": "image2_here"
     },
     {
-      "date": "1018 г.",
+      "date": "1018",
       "title": "България пада под Византийско робство",
       "description": "Първото българско царство приключв с падането му под Византийско робство",
-      "image": "https://drive.google.com/your-image-link"
+      "image": "image3_here"
     }
   ]
-  
