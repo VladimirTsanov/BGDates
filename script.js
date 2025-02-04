@@ -5,12 +5,19 @@ function displayDates(dates) {
         const slide = document.createElement("div");
         slide.classList.add("slide");
 
-        slide.innerHTML = `
-            <img src="${item.image}" alt="${item.title}">
-            <h2>${item.date} г. - ${item.title}</h2>
-            <p>${item.description}</p>
+        if (document.documentElement.lang === "bg") {
+            slide.innerHTML = `
+            <img src="${item.image}" alt="${item.title_bg}">
+            <h2>${item.date} г. - ${item.title_bg}</h2>
+            <p>${item.description_bg}</p>
         `;
-
+        } else {
+            slide.innerHTML = `
+            <img src="${item.image}" alt="${item.title_en}">
+            <h2>${item.date} - ${item.title_en}</h2>
+            <p>${item.description_en}</p>
+        `;
+        }
         container.appendChild(slide);
     });
 }
@@ -21,12 +28,12 @@ const nextBtn = document.getElementById("nextBtn");
 const filterBtn = document.getElementById("filterBtn");
 const resetBtn = document.getElementById("resetBtn");
 
-let allDates = [];
+
 let slides;
 fetch("dates.json")
     .then(response => response.json())
     .then(data => {
-        allDates = data;
+
         displayDates(data);
         addClones();
 
@@ -117,7 +124,6 @@ resetBtn.addEventListener("click", () => {
     fetch("dates.json")
     .then(response => response.json())
     .then(data => {
-        allDates = data;
         displayDates(data);
         addClones();
 
@@ -143,9 +149,43 @@ languageSelect.addEventListener("change", (event) => {
 function changeLanguage(language) {
 
     if (language === "bg") {
+        document.documentElement.lang = "bg";
+        carouselContainer.innerHTML = '';
+        fetch("dates.json")
+            .then(response => response.json())
+            .then(data => {
+                displayDates(data);
+                addClones();
 
+        slides = document.querySelectorAll(".slide");
+        
+        starAutoSlide();
+        })
+    .catch(error => console.error("Грешка при зареждане на JSON:", error));
+    
     } else if (language === "en") {
+        document.documentElement.lang = "en";
 
+        document.querySelector("title").textContent = "Carousel test";
+        document.getElementById("choose_lang").textContent = "Choose language:";
+        document.getElementById("date_range").textContent = "Type year range:";
+        document.getElementById("startDate").placeholder = "Start date";
+        document.getElementById("endDate").placeholder = "End date";
+        document.getElementById("filterBtn").textContent = "Filter";
+        document.getElementById("resetBtn").textContent = "Reset";
+        document.getElementById("speed_carousel").textContent = "Carousel speed (in seconds):";
+
+        carouselContainer.innerHTML = '';
+        fetch("dates.json")
+            .then(response => response.json())
+            .then(data => {
+                displayDates(data);
+                addClones();
+
+        slides = document.querySelectorAll(".slide");
+        
+        starAutoSlide();
+        })
     }
 }
 
@@ -157,10 +197,18 @@ function filterDatesByRange(start, end) {
     endDate = endDate === '' ? null : parseInt(endDate);    
     
     if ((startDate < 0 && endDate <0) || (startDate < 0 || endDate < 0)){
-        alert("Дати не могат да бъдат отрицателни!");
-        document.getElementById("startDate").value = "";
-        document.getElementById("endDate").value = "";
-        return;
+        if (document.documentElement.lang = "bg") {
+            alert("Дати не могат да бъдат отрицателни!");
+            document.getElementById("startDate").value = "";
+            document.getElementById("endDate").value = "";
+            return;
+        } else {
+            alert("Dates cannot be with negative sign!");
+            document.getElementById("startDate").value = "";
+            document.getElementById("endDate").value = "";
+            return;
+        }
+        
     }
 
 
@@ -190,7 +238,12 @@ fetch("dates.json")
         if (filteredDates.length > 0) {
              updateCarousel(filteredDates);
         } else {
-            alert("Няма дати в зададения диапазон!");
+            if (document.documentElement.lang = "bg") {
+                alert("Няма дати в зададения диапазон!");
+            } else {
+                alert("There is no dates in the set year interval");
+            }
+            
     }})
     .catch(error => console.error("Грешка при зареждане на JSON:", error));
 
@@ -198,16 +251,16 @@ fetch("dates.json")
 function getYearFromDate(dateString) {
     // Ако датата е само година
     if (/^\d{3,4}$/.test(dateString)) {
-      return parseInt(dateString);
+      return parseInt(dateString); // Връщаме годината като число
     }
   
-
+    // Ако датата е във формат "януари 1989" или "01 януари 1989"
     const yearMatch = dateString.match(/(\d{4})/);
     if (yearMatch) {
-      return parseInt(yearMatch[1]);
+      return parseInt(yearMatch[1]); // Връщаме годината
     }
   
-    return null;
+    return null; // Ако не можем да извлечем година, връщаме null
 }
 
 function updateCarousel(filteredData) {
