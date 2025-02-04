@@ -8,13 +8,13 @@
 </head>
 <body>
   <div class="controls">
-    <label for="languageSelect">Изберете език:</label>
+    <label id="choose_lang" for="languageSelect">Изберете език:</label>
     <select id="languageSelect">
       <option value="bg">Български език</option>
       <option value="en">English</option>
     </select>
 
-    <label for="dateRange">Изберете диапазон от дати:</label>
+    <label id="date_range" for="dateRange">Изберете диапазон от години:</label>
     <input type="number" id="startDate" placeholder="Начална година">
     <input type="number" id="endDate" placeholder="Крайна година">
     <div><button id="filterBtn">Филтър</button></div>
@@ -22,7 +22,7 @@
 
 
 
-    <label for="speedSlider">Скорост на карусела (сек.):</label>
+    <label id="speed_carousel" for="speedSlider">Скорост на карусела (сек.):</label>
     <div class="slider-container">
       <input type="range" id="speedSlider" min="1" max="15" step="1" value="6">
       <span id="speedTooltip">6</span>
