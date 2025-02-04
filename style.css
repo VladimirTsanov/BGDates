@@ -8,17 +8,20 @@
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     height: 100vh;
     background-color: #f4f4f4;
   }
   
   .carousel {
+    margin-bottom: 5%;
     position: relative;
     width: 80%;
     overflow: hidden;
-    border: 2px solid #000; /* За да виждаш ясно контейнера */
+    border: 2px solid #000;
     background-color: white;
+    border-radius: 10px;
+    padding: 10px;
   }
   
   .carousel_container {
@@ -62,3 +65,117 @@
   #prevBtn { left: 10px; }
   #nextBtn { right: 10px; }
   
+  .controls {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    padding-bottom: 5px;
+
+}
+
+.controls label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.controls select,
+.controls input {
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.controls input[type="number"] {
+    width: 100px;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+}
+
+#speedTooltip {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #007bff;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+#speedSlider:hover + #speedTooltip {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+#speedSlider {
+  width: 100%;
+  -webkit-appearance: none;
+  height: 6px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+
+#speedSlider:hover + #speedTooltip {
+  visibility: visible;
+}
+
+
+#filterBtn {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  margin-top: 20px;
+}
+
+#filterBtn:hover {
+  background-color: #0056b3;
+}
+
+#resetBtn {
+  position:relative;
+  width: 100%;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+  margin-top: 5px;
+}
+
+#resetBtn:hover {
+  background-color: #0056b3;
+}
