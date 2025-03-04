@@ -1,27 +1,1703 @@
 [
-    {
-      "date": "681",
-      "title_bg": "Основаването на България",
-      "title_en": "The faoundation of Bulgaria",
-      "description_bg": "Хан Аспарух основава България",
-      "description_en": "Khan Asparuh founded Bulgaria",
-      "image": "image1_here"
+  {
+      "date": "632",
+      "title_bg": "Създаване на Стара Велика България",
+      "title_en": "Foundation of Old Great Bulgaria",
+      "description_bg": "Хан Кубрат обединява прабългарските племена и създава държавата, известна като Стара Велика България в Северното Причерноморие.",
+      "description_en": "Khan Kubrat unites the Bulgar tribes and establishes Old Great Bulgaria in the northern Black Sea region.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/68c5b691bdfdee6fd73cc5a1e25765bcc47c7ae8/Giudjenov_Kubrat_and_his_sons.jpg",
+      "caption": "Снимка: худ. Димитър Гюдженов"
+    },
+  {
+      "date": "~635",
+      "title_bg": "Мирен договор с Византия",
+      "title_en": "Peace Treaty with Byzantium",
+      "description_bg": "Кубрат сключва съюз с византийския император Ираклий, гарантиращ независимостта на държавата.",
+      "description_en": "Kubrat signs a treaty with Byzantine Emperor Heraclius, securing Bulgarian independence.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/peace_contract_635.jpg",
+      "caption": "Снимката е илюстративна!"
     },
     {
-      "date": "864",
-      "title_bg": "Покръстването на България",
-      "title_en": "The Baptism of Bulgaria",
-      "description_bg": "Покръстването на българите и приемане на християнството",
-      "description_en": "Medieval Bulgaria converted to Christianity",
-      "image": "image2_here"
+      "date": "668",
+      "title_bg": "Разпадане на Стара Велика България",
+      "title_en": "Disintegration of Old Great Bulgaria",
+      "description_bg": "След нападенията на хазарите и смъртта на Батбаян, държавата попада под хазарска власт.",
+      "description_en": "After Khazar invasions and Batbayan's death, the state falls under Khazar control.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Old_Great_Bulgaria_and_migration_of_Bulgarians.png",
+      "caption": "Снимка: Kandi, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "680",
+      "title_bg": "Битката при Онгъла",
+      "title_en": "The Battle of Ongal",
+      "description_bg": "Битката при Онгъла завършила с победа над византийската войска начело с Константин IV Погонат.",
+      "description_en": "The Battle of Ongal ended with a victory over the Byzantine army led by Constantine IV Pogonatos.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/68c5b691bdfdee6fd73cc5a1e25765bcc47c7ae8/Battle_of_Ongal_plan.png",
+      "caption": "Снимка: Kandi, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "681",
+      "title_bg": "Основаване на Първата българска държава",
+      "title_en": "Foundation of the First Bulgarian Empire",
+      "description_bg": "Аспарух побеждава византийците в битката при Онгъла и създава държава южно от Дунава със столица Плиска.",
+      "description_en": "Asparuh defeats the Byzantines at the Battle of Ongal and establishes a state south of the Danube with capital Pliska",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/68c5b691bdfdee6fd73cc5a1e25765bcc47c7ae8/Asparuh_crossing_Danube.jpg",
+      "caption": "Снимка: худ. Димитър Гюдженов"
+    },
+    {
+      "date": "717-718",
+      "title_bg": "Разгром на арабите",
+      "title_en": "Defeat of the Arabs",
+      "description_bg": "Българите разбиват арабите, които обсадили византийската столица.",
+      "description_en": "The Bulgarians defeat the Arabs who besieged the Byzantine capital.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/arabi_bitka_constantinopol.jpg",
+      "caption": "Автор: Александър Алексиев - Хофарт"
+    },
+    {
+      "date": "809",
+      "title_bg": "Превземането на Средец",
+      "title_en": "Capture of Serdica",
+      "description_bg": "Хан Крум превзема Средец (София).",
+      "description_en": "Khan Krum captures Serdica (Sofia).",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/serdika_fortress_occupation.jpg",
+      "caption": ""
+    },
+    {
+      "date": "811",
+      "title_bg": "Разгром във Върбишкия проход",
+      "title_en": "Defeat in the Varbitsa Pass",
+      "description_bg": "Разгром на византийските войски във Върбишкия проход.",
+      "description_en": "The Byzantine army is defeated in the Varbitsa Pass.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/khanKrum.jpg",
+      "caption": ""
+    },
+    {
+      "date": "813",
+      "title_bg": "Битката при Версиникия",
+      "title_en": "The Battle of Versinikia",
+      "description_bg": "Българите обсаждат Константинопол.",
+      "description_en": "The Bulgarians besiege Constantinople.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/versinikya_battle.jpg",
+      "caption": ""
+    },
+    {
+      "date": "815",
+      "title_bg": "Мирен договор между България и Византия",
+      "title_en": "30-Year Peace Treaty",
+      "description_bg": "Договор за 30-годишен мир между България и Византия.",
+      "description_en": "A 30-year peace treaty between Bulgaria and Byzantium.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/peace_contract_815.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "855",
+      "title_bg": "Създаване на глаголицата",
+      "title_en": "Creation of the Glagolitic Alphabet",
+      "description_bg": "Кирил и Методий започват създаването на славянската азбука – глаголица.",
+      "description_en": "Cyril and Methodius begin the creation of the Slavic Glagolitic alphabet.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/first_slavic_alphabet.jpg",
+      "caption": ""
+    },
+    {
+      "date": "864-866",
+      "title_bg": "Покръстване на българите",
+      "title_en": "Christianization of the Bulgarians",
+      "description_bg": "Периодът от 864 до 866 г. бележи покръстването на българите.",
+      "description_en": "The period from 864 to 866 marks the Christianization of the Bulgarians.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/68c5b691bdfdee6fd73cc5a1e25765bcc47c7ae8/Christianity_inBulgaria.jpg",
+      "caption": ""
+    },
+    {
+      "date": "870",
+      "title_bg": "Учредяване на независима църква",
+      "title_en": "Establishment of an Independent Church",
+      "description_bg": "Учредяване на независима българска църква.",
+      "description_en": "The establishment of an independent Bulgarian church.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/independant_church.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "886",
+      "title_bg": "Пристигане на учениците на Кирил и Методий",
+      "title_en": "Arrival of the Disciples of Cyril and Methodius",
+      "description_bg": "Учениците на Кирил и Методий идват в България.",
+      "description_en": "The disciples of Cyril and Methodius arrive in Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/CyrilandMethodius_students_Bulgaria.jpg",
+      "caption": ""
+    },
+    {
+      "date": "893",
+      "title_bg": "Преславският събор",
+      "title_en": "The Preslav Council",
+      "description_bg": "Симеон заема българския престол, столицата се премества от Плиска в Преслав, византийското духовенство е изгонено, а старобългарският език става официален. Започва 'Златният век' на българската наука, култура и книжнина.",
+      "description_en": "Simeon takes the Bulgarian throne, the capital is moved from Pliska to Preslav, Byzantine clergy are expelled, and Old Bulgarian becomes the official language. The 'Golden Age' of Bulgarian science, culture, and literature begins.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Tsar_simeon_preslavski_subor.jpg",
+      "caption": ""
+    },
+    {
+      "date": "913",
+      "title_bg": "Симеон обсажда Константинопол",
+      "title_en": "Simeon Besieges Constantinople",
+      "description_bg": "Симеон обсажда Константинопол и е провъзгласен за цар.",
+      "description_en": "Simeon besieges Constantinople and is proclaimed as Tsar.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/SimeonTheGreatAntonoff_%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%BF%D0%BE%D0%BB.jpg",
+      "caption": "Автор: Nikolai Pavlovic, Wikipedia Commons"
+    },
+    {
+      "date": "917",
+      "title_bg": "Битката при Ахелой",
+      "title_en": "The Battle of Achelous",
+      "description_bg": "Цар Симеон Велики разгромява византийците в битката при Ахелой.",
+      "description_en": "Tsar Simeon the Great defeats the Byzantines at the Battle of Achelous.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Bulgarians_defeat_the_Byzantines_at_Anchialos.jpg",
+      "caption": ""
+    },
+    {
+      "date": "927",
+      "title_bg": "Мир с Византия и признание на патриаршията",
+      "title_en": "Peace with Byzantium and Recognition of the Patriarchate",
+      "description_bg": "Цар Петър сключва мир с Византия и Българската патриаршия е официално призната.",
+      "description_en": "Tsar Peter makes peace with Byzantium and the Bulgarian Patriarchate is officially recognized.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/tsarPetur_and_Irina.jpg",
+      "caption": "Художник: Андриан Бекяров"
+    },
+    {
+      "date": "968–971",
+      "title_bg": "Нападение от княз Светослав",
+      "title_en": "Attack by Prince Sviatoslav",
+      "description_bg": "Киевският княз Светослав напада България през периода 968–971 г.",
+      "description_en": "Kievan Prince Sviatoslav invades Bulgaria during 968–971.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/68c5b691bdfdee6fd73cc5a1e25765bcc47c7ae8/Knyaz_Svetoslav.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1014",
+      "title_bg": "Битката при Ключ",
+      "title_en": "The Battle of Ključ",
+      "description_bg": "Самуиловата армия е разгромена от Василий II в битката при Ключ.",
+      "description_en": "Samuel's army is defeated by Basil II in the Battle of Ključ.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/68c5b691bdfdee6fd73cc5a1e25765bcc47c7ae8/Kluch_battle.jpg",
+      "caption": ""
     },
     {
       "date": "1018",
-      "title_bg": "България пада под Византийско робство",
-      "title_en": "Bulgaria falls under Byzantine slavery",
-      "description_bg": "Първото българско царство приключв с падането му под Византийско робство",
-      "description_en": "The first Bulgarian kingdom ended with its fall under Byzantine slavery",
-      "image": "image3_here"
+      "title_bg": "Падането под византийска власт",
+      "title_en": "Bulgaria Falls Under Byzantine Rule",
+      "description_bg": "България пада под византийска власт след смъртта на цар Иван Владислав.",
+      "description_en": "Bulgaria falls under Byzantine rule following the death of Tsar Ivan Vladislav.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/firstBulgarian_empire_end.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1185-1187",
+      "title_bg": "Въстанието на Петър и Асен",
+      "title_en": "The Uprising of Peter and Asen",
+      "description_bg": "Въстанието на Петър и Асен води до освобождението на България от византийско иго и започването на Второто българско царство.",
+      "description_en": "The uprising of Peter and Asen leads to the liberation of Bulgaria from Byzantine rule and the beginning of the Second Bulgarian Empire.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/asen_petur_uprising.jpg",
+      "caption": "худ. Димитър Гюдженов"
+    },
+    {
+      "date": "1190",
+      "title_bg": "Разгромът в Тревненския проход",
+      "title_en": "Defeat in the Treven Pass",
+      "description_bg": "Разгромът на византийските войски в Тревненския проход.",
+      "description_en": "The Byzantine army is defeated in the Treven Pass.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Trevnenski_prohod_battle.jpg",
+      "caption": "Снимка: maps.bg"
+    },
+    {
+      "date": "1204",
+      "title_bg": "Уния с Рим",
+      "title_en": "Union with Rome",
+      "description_bg": "Цар Калоян сключва уния с Рим.",
+      "description_en": "Tsar Kaloyan forges a union with Rome.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/uniq_Rome%20(1).jpg",
+      "caption": ""
+    },
+    {
+      "date": "1205",
+      "title_bg": "Победа при Одрин",
+      "title_en": "Victory at Adrianople",
+      "description_bg": "Цар Калоян разбива латинците при Одрин и пленява императора Балдуин Фландърски.",
+      "description_en": "Tsar Kaloyan defeats the Latins at Adrianople and captures Emperor Baldwin of Flanders.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/odrin_latin_battle.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1230",
+      "title_bg": "Битка при Клокотница",
+      "title_en": "Battle of Klokotnitsa",
+      "description_bg": "Цар Иван Асен II разгромява войските на Епирския деспот Теодор Комнин при Клокотница.",
+      "description_en": "Tsar Ivan Asen II defeats the troops of the Epirote Despot Theodore Komnenos at Klokotnitsa.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/klokotnica_fight_Ivan_Asen.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1277-1280",
+      "title_bg": "Въстанието на Ивайло",
+      "title_en": "Ivaylo's Uprising",
+      "description_bg": "В периода 1277-1280 се извършва въстанието и управлението на Ивайло.",
+      "description_en": "The uprising and rule of Ivaylo takes place between 1277 and 1280.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ivaylo.jpeg",
+      "caption": ""
+    },
+    {
+      "date": "1332",
+      "title_bg": "Битката при Русокастро",
+      "title_en": "Battle of Rusokastro",
+      "description_bg": "Българските войски побеждават византийските сили при Русокастро през 1332.",
+      "description_en": "Bulgarian forces defeat the Byzantine army at Rusokastro in 1332.",
+      "image": "https://github.com/VT-storage/Storage_bgdated/blob/main/rusokastro.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1371",
+      "title_bg": "Краят на обединеното царство",
+      "title_en": "Division of the Bulgarian Empire",
+      "description_bg": "Смъртта на цар Йоан Александър през 1371 води до разделянето на Българското царство на Търновско и Видинско царство.",
+      "description_en": "The death of Tsar Ivan Alexander in 1371 leads to the division of the Bulgarian Empire into the Tarnovo and Vidin kingdoms.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Second_Bulgarian_Empire_after_1371.png",
+      "caption": ""
+    },
+    {
+      "date": "1382",
+      "title_bg": "Завладяване на София",
+      "title_en": "Conquest of Sofia",
+      "description_bg": "През 1382 турските войски завладяват София.",
+      "description_en": "In 1382, Turkish forces conquer Sofia.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Sofia_taken_over_otomans.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "1393",
+      "title_bg": "Завладяване на Търново",
+      "title_en": "Conquest of Tarnovo",
+      "description_bg": "През 1393 турците завладяват Търново, бележейки края на Търновското царство.",
+      "description_en": "In 1393, the Turks capture Tarnovo, marking the end of the Tarnovo Kingdom.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/turnovgrad_ottomans.jpeg",
+      "caption": ""
+    },
+    {
+      "date": "1396",
+      "title_bg": "Падането на България",
+      "title_en": "Fall of Bulgaria",
+      "description_bg": "През 1396 пада Видинското царство, което бележи окончателното падане на България под османска власт.",
+      "description_en": "In 1396, the fall of the Vidin Kingdom signifies the definitive subjugation of Bulgaria under Ottoman rule.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vidin_otomans.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1404/1408",
+      "title_bg": "Въстание на Константин и Фружин",
+      "title_en": "Uprising of Konstantin and Fruzhin",
+      "description_bg": "Между 1404 и 1408 се извършва въстанието, ръководено от Константин и Фружин.",
+      "description_en": "Between 1404 and 1408, an uprising led by Konstantin and Fruzhin takes place.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/constantine_frujin.png",
+      "caption": ""
+    },
+    {
+      "date": "1598",
+      "title_bg": "Първо търновско въстание",
+      "title_en": "First Tarnovo Uprising",
+      "description_bg": "През 1598 избухва Първото търновско въстание, ръководено от Тодор Балина, Дионисий Рали, Павел Джорджич и братя Соркочевичи.",
+      "description_en": "In 1598, the First Tarnovo Uprising, led by Todor Balina, Dionisiy Rali, Pavel Djordjich, and the Sorkochevichi brothers, erupts.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/First_Tarnovo_Uprising.png",
+      "caption": ""
+    },
+    {
+      "date": "1686",
+      "title_bg": "Второ търновско въстание",
+      "title_en": "Second Tarnovo Uprising",
+      "description_bg": "През 1686 започва Второто търновско въстание, начело с Ростислав Стратимирович и Савелий Дубровски.",
+      "description_en": "In 1686, the Second Tarnovo Uprising is led by Rostislav Stratimirovich and Saveliy Dubrovsky.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/second_tarnovo_uprising.jpg",
+      "caption": "Автор: Kandi, CC A-S A 3.0, Wikimedia Commons"
+    },
+    {
+      "date": "1688",
+      "title_bg": "Чипровско въстание",
+      "title_en": "Chiprovtsi Uprising",
+      "description_bg": "През 1688 се провежда Чипровското въстание, начело с Георги Пеячевич, Богдан Маринов, Иван Станиславов, Лука Андпенин и други.",
+      "description_en": "In 1688, the Chiprovtsi Uprising takes place, led by Georgi Pejachievich, Bogdan Marinov, Ivan Stanislavov, Luka Andpenin, and others.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/chiprovtsi_uprising.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1689",
+      "title_bg": "Карпошово въстание",
+      "title_en": "Karposh Uprising",
+      "description_bg": "През 1689 избухва Карпошовото въстание в района между Кюстендил и Скопие.",
+      "description_en": "In 1689, the Karposh Uprising erupts in the area between Kyustendil and Skopje.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/karposh_uprising.jpeg",
+      "caption": "Източник: maps.bg"
+    },
+    {
+      "date": "1762",
+      "title_bg": "Завършване на 'История славянобългарска'",
+      "title_en": "Completion of 'Istoriya Slavyanobolgarskaya'",
+      "description_bg": "Паисий Хилендарски завършва своята 'История славянобългарска' през 1762, вдъхновявайки националноосвободителното движение.",
+      "description_en": "In 1762, Paisiy Hilendarski completes his 'Istoriya Slavyanobulgarskaya', inspiring the national revival movement.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/paisi_istoriya.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1765",
+      "title_bg": "Първи препис на 'История славянобългарска'",
+      "title_en": "First Copy of 'Istoriya Slavyanobulgarskaya'",
+      "description_bg": "През 1765 Софроний Врачански завършва първия препис на 'История славянобългарска'.",
+      "description_en": "In 1765, Sofroniy Vrachanski completes the first copy of 'Istoriya Slavyanobulgarskaya'.",
+      "image": "",
+      "caption": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/istoriq_slavqnobulgarska.jpg"
+    },
+    {
+      "date": "1824",
+      "title_bg": "Издаване на 'Рибен буквар'",
+      "title_en": "Publication of 'Riben Bukvar'",
+      "description_bg": "Петър Берон издава своя 'Рибен буквар' през 1824, който положи основите на модерната българска образователна система.",
+      "description_en": "In 1824, Petar Beron publishes his 'Riben Bukvar', laying the foundations for the modern Bulgarian educational system.",
+      "image": "",
+      "caption": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ribenBukvar_petur_beron.jpg"
+    },
+    {
+      "date": "1828",
+      "title_bg": "Откриване на първата печатница",
+      "title_en": "Establishment of the First Printing House",
+      "description_bg": "Никола Карастоянов открива в Самоков първата печатница на територията на България през 1828.",
+      "description_en": "In 1828, Nikola Karastoyanov establishes the first printing house in Bulgaria in Samokov.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/fisrt_printing_machine_bg.jpg",
+      "caption": "Снимка: Исторически музей - Самоков, https://museumsamokov.blogspot.com/"
+    },
+    {
+      "date": "02 януари 1835",
+      "title_bg": "Откриване на първото взаимно училище",
+      "title_en": "Establishment of the First Mutual School",
+      "description_bg": "На 2 януари 1835 е открито първото българско взаимно училище в Габрово.",
+      "description_en": "On 2 January 1835, the first Bulgarian mutual school is established in Gabrovo.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vzaimno_uchilishte_gabrovo.jpg",
+      "caption": "Снимка: newme.bg"
+    },
+    {
+      "date": "1841",
+      "title_bg": "Откриване на първото девическо училище",
+      "title_en": "Establishment of the First Girls' School",
+      "description_bg": "През ноември 1840 е открито първото българско девическо училище в Плевен.",
+      "description_en": "In November 1840, the first Bulgarian girls' school is established in Pleven.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/first_women_school_bg.jpg",
+      "caption": "Снимка: daskalo.com"
+    },
+    {
+      "date": "1846",
+      "title_bg": "Откриване на първото класно училище",
+      "title_en": "Establishment of the First Primary School",
+      "description_bg": "През 1846 е открито първото българско класно училище в Копривщица.",
+      "description_en": "In 1846, the first Bulgarian primary school is established in Koprivshtitsa.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/first_class_school_koprivshtica.jpg",
+      "caption": "Автор: Luxferuer, https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BF%D1%80%D0%B8%D0%B2%D1%89%D0%B8%D1%86%D0%B0.jpg "
+    },
+    {
+      "date": "20 април 1846",
+      "title_bg": "Поява на първия вестник 'Български орел'",
+      "title_en": "Appearance of the First Newspaper 'Bulgarski Orel'",
+      "description_bg": "На 20 април 1846 се появява първият български вестник - 'Български орел'.",
+      "description_en": "On 20 April 1846, the first Bulgarian newspaper 'Bulgarski Orel' is published.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Balgarski_orel_1846_01.jpg",
+      "caption": ""
+    },
+    {
+      "date": "11 май 1851",
+      "title_bg": "Денят на светите братя Кирил и Методий",
+      "title_en": "Day of the Holy Brothers Cyril and Methodius",
+      "description_bg": "На 11 май 1851 г. за първи път се отбелязва Денят на светите братя Кирил и Методий в Пловдив.",
+      "description_en": "On 11 May 1851, the Day of the Holy Brothers Cyril and Methodius is celebrated for the first time in Plovdiv.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/first_celebration_ofDayCyrilMethodius.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1856",
+      "title_bg": "Откриване на първите читалища",
+      "title_en": "Establishment of the First Community Centers",
+      "description_bg": "През 1856 са открити първите читалища в Свищов, Лом и Шумен.",
+      "description_en": "In 1856, the first community centers were established in Svishtov, Lom, and Shumen.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purvo_chitalishte_svishtov.jpg",
+      "caption": "Снимка: ПБНЧ 'Еленка и Кирил Д. Аврамови' - 1856"
+    },
+    {
+      "date": "03 април 1860",
+      "title_bg": "Обявяване на отделянето на българската църква",
+      "title_en": "Declaration of the Bulgarian Church's Autocephaly",
+      "description_bg": "На 03 април 1860 Иларион Макариополски обявява в Цариград отделянето на българската църква от гръцката патриаршия.",
+      "description_en": "On 03 April 1860, Ilarion Makariopolski announces in Constantinople the separation of the Bulgarian Church from the Greek Patriarchate.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/independant_church_1860.jpg",
+      "caption": ""
+    },
+    {
+      "date": "01 септември 1860",
+      "title_bg": "Първо издание на вестник „Дунавски лебед“",
+      "title_en": "First Edition of the 'Dunavski Lebed' Newspaper",
+      "description_bg": "Първото издание на вестник „Дунавски лебед“ е публикувано на 01 септември 1860.",
+      "description_en": "The first edition of the 'Dunavski Lebed' newspaper was published on 01 September 1860.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Dunavskiy_lebed_first_issue.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1862",
+      "title_bg": "Първа българска легия в Белград",
+      "title_en": "First Bulgarian Legion in Belgrade",
+      "description_bg": "През 1862 е създадена първата българска легия в Белград.",
+      "description_en": "In 1862, the first Bulgarian Legion was formed in Belgrade.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purva_bulgarska_legiq.jpg",
+      "caption": ""
+    },
+    {
+      "date": "май 1866",
+      "title_bg": "Основан Таен Централен български комитет",
+      "title_en": "Establishment of the Secret Central Bulgarian Committee",
+      "description_bg": "През май 1866 е основан Таен Централен български комитет в Букурещ.",
+      "description_en": "In May 1866, the Secret Central Bulgarian Committee was established in Bucharest.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Bucharest%2C_1866_komitet.jpg",
+      "caption": ""
+    },
+    {
+      "date": "11 декември 1868",
+      "title_bg": "Първа обиколка на В. Левски",
+      "title_en": "V. Levski's First Tour of Bulgaria",
+      "description_bg": "На 11 декември 1868 започва първата обиколка на В. Левски из България.",
+      "description_en": "On 11 December 1868, Vasil Levski embarks on his first tour of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purva_obikolka_levski.jpg",
+      "caption": ""
+    },
+    {
+      "date": "май-август 1869",
+      "title_bg": "Втора обиколка на В. Левски",
+      "title_en": "Vasil Levski's Second Tour of Bulgaria",
+      "description_bg": "През май-август 1869 се провежда втора обиколка на В. Левски из България.",
+      "description_en": "Between May and August 1869, Vasil Levski undertakes his second tour of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/levski_vtora_obikolka.jpg",
+      "caption": ""
+    },
+    {
+      "date": "есента 1869",
+      "title_bg": "Създаване на Български революционен централен комитет",
+      "title_en": "Establishment of the Bulgarian Revolutionary Central Committee",
+      "description_bg": "През есента на 1869 е създаден Български революционен централен комитет в Букурещ.",
+      "description_en": "In the autumn of 1869, the Bulgarian Revolutionary Central Committee was established in Bucharest.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ustav_BRCK_1869.jpg",
+      "caption": ""
+    },
+    {
+      "date": "септември 1869",
+      "title_bg": "Учредяване на Българско книжовно дружество",
+      "title_en": "Establishment of the Bulgarian Literary Society",
+      "description_bg": "През септември 1869 е учредено Българско книжовно дружество в Браила (днес БАН).",
+      "description_en": "In September 1869, the Bulgarian Literary Society was established in Brăila (now the Bulgarian Academy of Sciences).",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ustav_bulgarsko_knijovno_drujestvo_1869.png",
+      "caption": "Източник: http://mmib.math.bas.bg/?page_id=195, 19.02.2025 "
+    },
+    {
+      "date": "07 ноември 1869",
+      "title_bg": "Първо издание на вестник „Свобода“",
+      "title_en": "First Edition of the 'Svoboda' Newspaper",
+      "description_bg": "Първото издание на вестник „Свобода“ е публикувано на 07 ноември 1869.",
+      "description_en": "The first edition of the 'Svoboda' newspaper was published on 07 November 1869.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_svoboda_1869.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1870",
+      "title_bg": "Създаване на Българската екзархия",
+      "title_en": "Establishment of the Bulgarian Exarchate",
+      "description_bg": "През 1870 с ферман на султана се създава Българската екзархия.",
+      "description_en": "In 1870, the Bulgarian Exarchate was established by a firman from the Sultan.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Sultan%E2%80%99s_Ferman_for_the_establishment_of_a_Bulgarian_Exarchate_1870.jpg",
+      "caption": ""
+    },
+    {
+      "date": "22 септември 1872",
+      "title_bg": "Обир на турската хазна в Арабаконашкия проход",
+      "title_en": "Plundering of the Turkish Treasury in the Arabakonash Pass",
+      "description_bg": "На 22 септември 1872, Димитър Общи организира обир на турската хазна в Арабаконашкия проход.",
+      "description_en": "On 22 September 1872, Dimitur Obshti organized the plundering of the Turkish treasury in the Arabakonash Pass.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/arabakonak.jpg",
+      "caption": ""
+    },
+    {
+      "date": "27 декември 1872",
+      "title_bg": "Залавяне на В. Левски",
+      "title_en": "Capture of V. Levski",
+      "description_bg": "На 27 декември 1872 В. Левски е заловен в Къкринското ханче.",
+      "description_en": "On 27 December 1872, Vasil Levski was captured at Kykrynskoto Hanche.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/capturing_levski.jpg",
+      "caption": ""
+    },
+    {
+      "date": "06 февруари 1873",
+      "title_bg": "Обесването на В. Левски",
+      "title_en": "Execution of V. Levski",
+      "description_bg": "На 06 февруари 1873 В. Левски е обесен в София.",
+      "description_en": "On 06 February 1873, Vasil Levski was hanged in Sofia.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/obesvaneto_vasil_levski.jpg",
+      "caption": "Автор: Борис Ангелушеф"
+    },
+    {
+      "date": "1873",
+      "title_bg": "Първо издание на вестник „Независимост“",
+      "title_en": "First Edition of the 'Nezavisimost' Newspaper",
+      "description_bg": "През 1873 е публикувано първото издание на вестник „Независимост“.",
+      "description_en": "The first edition of the 'Nezavisimost' newspaper was published in 1873.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_nezavisimost_1873.jpg",
+      "caption": ""
+    },
+    {
+      "date": "08 декември 1874",
+      "title_bg": "Първо издание на вестник „Знаме“",
+      "title_en": "First Edition of the 'Zname' Newspaper",
+      "description_bg": "Първото издание на вестник „Знаме“ е публикувано на 08 декември 1874.",
+      "description_en": "The first edition of the 'Zname' newspaper was published on 08 December 1874.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_Zname.png",
+      "caption": ""
+    },
+    {
+      "date": "септември 1875",
+      "title_bg": "Старозагорско въстание",
+      "title_en": "Starozagorsko Uprising",
+      "description_bg": "През септември 1875 избухва Старозагорското въстание.",
+      "description_en": "In September 1875, the Starozagorsko Uprising breaks out.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Stara_Zagora_uprising.png",
+      "caption": "Автор: Kandi, CC A-S A4.0, Wikimedia Commons"
+    },
+    {
+      "date": "20 април 1876",
+      "title_bg": "Обявяване на Априлското въстание",
+      "title_en": "Declaration of the April Uprising",
+      "description_bg": "На 20 април 1876 се обявява Априлското въстание в Копривщица.",
+      "description_en": "On 20 April 1876, the April Uprising in Koprivshtitsa is declared.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/aprilsko-vustanie.jpg",
+      "caption": "худ. Веселин Стайков"
+    },
+    {
+      "date": "17 май 1876",
+      "title_bg": "Четата на Христо Ботев слиза на Козлодуйския бряг",
+      "title_en": "Hristo Botev's Troops Land at the Kozloduy Shore",
+      "description_bg": "На 17 май 1876 четата на Христо Ботев слиза на Козлодуйския бряг.",
+      "description_en": "On 17 May 1876, Hristo Botev's troops land on the Kozloduy shore.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/hristoBotev_cheta_Kozloduy.jpg",
+      "caption": "Автор: худ. Димитър Гюдженов"
+    },
+    {
+      "date": "22 април 1876",
+      "title_bg": "Освещаване на знамето „Свобода или смърт“ от Райна Княгиня",
+      "title_en": "Consecration of the 'Liberty or Death' flag by Rayna Knyaginya",
+      "description_bg": "През 1876 г. Райна Княгиня ушива и освещава знамето „Свобода или смърт“, което се превръща в символ на българското национално освободително движение.",
+      "description_en": "In 1876, Rayna Knyaginya sewed and consecrated the 'Liberty or Death' flag, which became a symbol of the Bulgarian national liberation movement.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Rayna_Knyaginya%20(1).jpg",
+      "caption": ""
+    },
+    {
+      "date": "20 май 1876",
+      "title_bg": "Гибелта на Христо Ботев",
+      "title_en": "Death of Hristo Botev",
+      "description_bg": "На 20 май 1876 Христо Ботев загива на връх Околчица.",
+      "description_en": "On 20 May 1876, Hristo Botev perishes on Okolchitsa peak.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Okolchitza_monument_17.jpg",
+      "caption": "Автор: Vislupus, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "1876-1877",
+      "title_bg": "Посланическа конференция по Източния въпрос",
+      "title_en": "Diplomatic Conference on the Eastern Question",
+      "description_bg": "През 1876-1877 се провежда Посланическата конференция в Цариград по Източния въпрос.",
+      "description_en": "Between 1876 and 1877, a diplomatic conference on the Eastern Question is held in Constantinople.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Constantinople_Conference_1.jpg",
+      "caption": ""
+    },
+    {
+      "date": "24 април 1877",
+      "title_bg": "Обявяване на война от Руската империя",
+      "title_en": "Russian Declaration of War",
+      "description_bg": "На 24 април 1877 Руската империя обявява война на Османската империя, започвайки Руско-турската освободителна война.",
+      "description_en": "On 24 April 1877, the Russian Empire declares war on the Ottoman Empire, initiating the Russo-Turkish War of Liberation.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/manifest_rusko-turska_voyna.jpg",
+      "caption": ""
+    },
+    {
+      "date": "9-11 август 1877",
+      "title_bg": "Битката за Шипка",
+      "title_en": "Battle of Shipka Pass during the Russo-Turkish War",
+      "description_bg": "От 9 до 11 август 1877 г. в Шипченския проход руско-българският отряд успешно отбранява позициите си срещу османските войски, оказвайки решаващо влияние върху хода на войната и освобождението на България.",
+      "description_en": "From August 9 to 11, 1877, at Shipka Pass, the Russo-Bulgarian detachment successfully defended its positions against the Ottoman forces, playing a crucial role in the course of the war and Bulgaria's liberation.",
+      "image": ""
+    },    
+    {
+      "date": "10 декември 1877",
+      "title_bg": "Плевен е освободен от турско робство",
+      "title_en": "Capture of Pleven",
+      "description_bg": "На 10 декември 1877 руските и румънските войски завършват успешната обсада на Плевен, отблъсквайки турските сили.",
+      "description_en": "On December 10, 1877, Russian and Romanian forces successfully concluded the Siege of Pleven, repelling Turkish troops.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/pleven_liberation_1877.jpg",
+      "caption": ""
+    },
+    {
+      "date": "4 януари 1878",
+      "title_bg": "София е освободена от османска власт",
+      "title_en": "Sofia is Liberated from Ottoman Rule",
+      "description_bg": "На 4 януари 1878 г. руските войски, под командването на генерал Гурко, освобождават София от османска власт. Това е важна стъпка към освобождението на България след Руско-турската война (1877-1878).",
+      "description_en": "On January 4, 1878, Russian forces under the command of General Gurko liberated Sofia from Ottoman rule. This was a significant step towards the liberation of Bulgaria following the Russo-Turkish War (1877-1878).",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/free_sofia_1878.jpeg",
+      "caption": "Автор: худ. Димитър Гюдженов"
+    },
+    {
+      "date": "19 февруари 1878",
+      "title_bg": "Подписване на предварителния мирен договор в Сан-Стефано",
+      "title_en": "Signing of the Preliminary Peace Treaty of San Stefano",
+      "description_bg": "На 19 февруари 1878 е подписан предварителният мирен договор в Сан-Стефано.",
+      "description_en": "On 19 February 1878, the preliminary peace treaty was signed in San Stefano.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/san_stefano_peace_treaty.jpg",
+      "caption": ""
+    },
+    {
+      "date": "01 юли 1878",
+      "title_bg": "Подписване на Берлинския договор",
+      "title_en": "Signing of the Berlin Treaty",
+      "description_bg": "На 01 юли 1878 е подписан Берлинският договор, който разпокъсва България на Източна Румелия и Княжество България.",
+      "description_en": "On 01 July 1878, the Berlin Treaty was signed, partitioning Bulgaria into Eastern Rumelia and the Principality of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Bulgaria_after_Congress_of_Berlin_in_1878.png",
+      "caption": "Автор: Pakko, CC A-S A3.0, Wikimedia Commons"
+    },
+    {
+      "date": "26 ноември 1878",
+      "title_bg": "Откриване на Военното училище в София",
+      "title_en": "Establishment of the Military School in Sofia",
+      "description_bg": "На 26 ноември 1878 е открито Военното училище в София.",
+      "description_en": "On 26 November 1878, the Military School in Sofia was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/voenna_akademiq_1878.jpg",
+      "caption": ""
+    },
+    {
+      "date": "05 октомври 1878",
+      "title_bg": "Начало на Кресненско-Разложкото въстание",
+      "title_en": "Beginning of the Kresna-Razlog Uprising",
+      "description_bg": "На 05 октомври 1878 започва Кресненско-Разложкото въстание.",
+      "description_en": "On 05 October 1878, the Kresna-Razlog Uprising began.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/kresnensko_razlojko_vustanie.jpg",
+      "caption": "Автор: Atanas Novev, CC A-S A3.0, Personal archive of Stefan Karshakov "
+    },
+    {
+      "date": "ноември 1878",
+      "title_bg": "Учредяване на Публична библиотека в София",
+      "title_en": "Establishment of the Public Library in Sofia",
+      "description_bg": "През ноември 1878 е учредена Публична библиотека в София, начало на Народната библиотека.",
+      "description_en": "In November 1878, a Public Library was established in Sofia, marking the beginning of the National Library.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/sgrada_biblioteka.jpeg",
+      "caption": "Сградата на биоблиотеката от 1910 г."
+    },
+    {
+      "date": "25 януари 1879",
+      "title_bg": "Учредяване на Българската народна банка",
+      "title_en": "Establishment of the Bulgarian National Bank",
+      "description_bg": "На 25 януари 1879 е учредена Българската народна банка.",
+      "description_en": "On 25 January 1879, the Bulgarian National Bank was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bnb_sgrada_osnovavane.jpg",
+      "caption": "Сградата на БНБ в началото на XX век"
+    },
+    {
+      "date": "16 април 1879",
+      "title_bg": "Приемане на Търновската конституция",
+      "title_en": "Adoption of the Tarnovo Constitution",
+      "description_bg": "На 16 април 1879 е приета Търновската конституция, с което формата на управление става конституционна монархия.",
+      "description_en": "On 16 April 1879, the Tarnovo Constitution was adopted, establishing a constitutional monarchy.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Turnovska_konstituciq.jpg",
+      "caption": ""
+    },
+    {
+      "date": "10 февруари 1885",
+      "title_bg": "Създаване на БТЦРК",
+      "title_en": "Formation of the Bulgarian Secret Central Revolutionary Committee (BTCRK)",
+      "description_bg": "На 10 февруари 1885 в Пловдив е създаден Българският таен централен революционен комитет (БТЦРК) за подготовка на съединението на Източна Румелия с Княжество България.",
+      "description_en": "On 10 February 1885 in Plovdiv, the Bulgarian Secret Central Revolutionary Committee (BTCRK) was formed to prepare for the unification of Eastern Rumelia with the Principality of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/BTCRK_suzdavane_1885.jpg",
+      "caption": ""
+    },
+    {
+      "date": "06 септември 1885",
+      "title_bg": "Съединение на Източна Румелия с Княжество България",
+      "title_en": "Unification of Eastern Rumelia with the Principality of Bulgaria",
+      "description_bg": "На 06 септември 1885 се осъществява съединението на Източна Румелия с Княжество България.",
+      "description_en": "On 06 September 1885, Eastern Rumelia was unified with the Principality of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/manifest_suedinenie_1885.jpg",
+      "caption": ""
+    },
+    {
+      "date": "02 ноември 1885 – 09 декември 1885",
+      "title_bg": "Сърбия напада България",
+      "title_en": "Serbia Attacks Bulgaria",
+      "description_bg": "От 02 ноември 1885 до 07 декември 1885 Сърбия напада България, което води до поражението на сръбската армия при Сливница.",
+      "description_en": "From 02 November 1885 to 07 December 1885, Serbia attacked Bulgaria, resulting in the defeat of the Serbian army at Slivnitsa.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/srubsko_bulgarska_voyna.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1886",
+      "title_bg": "Откриване на сградата на Народното събрание",
+      "title_en": "Inauguration of the National Assembly Building",
+      "description_bg": "През 1886 г. сградата на Народното събрание се открива като символ на новата българска държавност.",
+      "description_en": "In 1886, the National Assembly Building was inaugurated as a symbol of the new Bulgarian statehood.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/sgrada_narodno_subranie_1886.jpg",
+      "caption": "Снимка: stara-sofia.com"
+    },
+    {
+      "date": "19 февруари 1886",
+      "title_bg": "Подписване на Букурещкия мирен договор",
+      "title_en": "Signing of the Bucharest Peace Treaty",
+      "description_bg": "На 19 февруари 1886 е подписан Букурещкият мирен договор, слагащ край на Сръбско-българската война.",
+      "description_en": "On 19 February 1886, the Bucharest Peace Treaty was signed, ending the Serbo-Bulgarian War.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/buchuresht_miren_dogovor_1886.jpg",
+      "caption": ""
+    },
+    {
+      "date": "9 август 1886",
+      "title_bg": "Детрониране и абдикация на княз Батенберг",
+      "title_en": "Deposition and Abdication of Prince Battenberg",
+      "description_bg": "През август 1886 се случва детронирането на княз Ал. Батенберг, последвано от контра-преврат и абдикация.",
+      "description_en": "In August 1886, Prince Alexander Battenberg was deposed and later abdicated following a counter-coup.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/prevrat_knyazBatenberg_1886.jpg",
+      "caption": ""
+    },
+    {
+      "date": "01 октомври 1888",
+      "title_bg": "Създаване на Софийския университет",
+      "title_en": "Establishment of Sofia University",
+      "description_bg": "На 01 октомври 1888 е създаден Софийският университет като Висш педагогически курс.",
+      "description_en": "On 01 October 1888, Sofia University was established as a Higher Pedagogical Course.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Sof.University%7E1935.jpg",
+      "caption": "Снимка (1930 г.): Scanned postcard, CC A 3.0, Wikimedia Commons"
+    },
+    {
+      "date": "20 юли 1891",
+      "title_bg": "Учредителен конгрес на БСДП",
+      "title_en": "Founding Congress of the Bulgarian Social Democratic Party (BSDP)",
+      "description_bg": "На 20 юли 1891 се провежда Учредителният конгрес на Българската социалдемократическа партия (БСДП) на връх Бузлуджа.",
+      "description_en": "On 20 July 1891, the founding congress of the Bulgarian Social Democratic Party (BSDP) was held at Buzludzha Peak.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/buzludja_kongres_BSDP.jpg",
+      "caption": "Автори: Кирил Буюклийски, Петър Петров"
+    },
+    {
+      "date": "23 октомври 1893",
+      "title_bg": "Основаване на ВМОРО",
+      "title_en": "Foundation of the Internal Macedonian-Adrianople Revolutionary Organization (IMARO)",
+      "description_bg": "На 23 октомври 1893 в Солун са положени основите на Вътрешната, македоно-одринска революционна организация (ВМОРО).",
+      "description_en": "On 23 October 1893 in Thessaloniki, the foundations of the Internal Macedonian-Adrianople Revolutionary Organization (IMARO) were laid.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vmoro_osnovavane_ustav.jpg",
+      "caption": ""
+    },
+    {
+      "date": "06 април 1894",
+      "title_bg": "Първо издание на вестник „Мир“",
+      "title_en": "First Edition of the 'Mir' Newspaper",
+      "description_bg": "На 06 април 1894 е публикувано първото издание на вестник „Мир“.",
+      "description_en": "On 06 April 1894, the first edition of the 'Mir' newspaper was published.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_Mir.jpg",
+      "caption": "Източник: Архив на БАН, http://old.cl.bas.bg/"
+    },
+    {
+      "date": "1895",
+      "title_bg": "Учредяване на Българския учителски съюз",
+      "title_en": "Establishment of the Bulgarian Teachers' Union",
+      "description_bg": "През 1895 е учреден Българският учителски съюз.",
+      "description_en": "In 1895, the Bulgarian Teachers' Union was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Bulgarian_teachers_union_in_1922.jpg",
+      "caption": "Българският учителски съюз през 1922 г."
+    },
+    {
+      "date": "март 1895",
+      "title_bg": "Учредяване на Върховния македоно-одрински комитет (ВМОК)",
+      "title_en": "Establishment of the Supreme Macedonian-Adrianople Committee (SMAC)",
+      "description_bg": "През март 1895 се учредява Върховният македоно-одрински комитет (ВМОК).",
+      "description_en": "In March 1895, the Supreme Macedonian-Adrianople Committee (SMAC) was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/VMOK_cheta.jpg",
+      "caption": ""
+    },
+    {
+      "date": "27 август 1895",
+      "title_bg": "Първи организиран туристически поход до Черни връх",
+      "title_en": "First Organized Hiking Trip to Cherni Vrah",
+      "description_bg": "На 27 август 1895 се провежда първият организиран туристически поход до Черни връх по инициатива на писателя Алеко Константинов, считан за начало на туристическото движение в България.",
+      "description_en": "On 27 August 1895, the first organized hiking trip to Cherni Vrah was conducted, marking the beginning of the tourism movement in Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purvi_pohod_CherniVruh.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1896",
+      "title_bg": "Признаване на княз Фердинанд",
+      "title_en": "Recognition of Prince Ferdinand by the Great Powers",
+      "description_bg": "През 1896 се признава княз Фердинанд от Великите сили.",
+      "description_en": "In 1896, Prince Ferdinand was recognized by the Great Powers.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/knqz_Ferdinant.jpeg",
+      "caption": ""
+    },
+    {
+      "date": "1896",
+      "title_bg": "Създаване на Демократическата партия",
+      "title_en": "Establishment of the Democratic Party",
+      "description_bg": "През 1896 е създадена Демократическата партия.",
+      "description_en": "In 1896, the Democratic Party was founded.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/democratic_party_congres.jpg",
+      "caption": "Снимка: Конгрес на Демократическата партия (1926), stara-sofia.blogspot.com"
+    },
+    {
+      "date": "05 септември 1897",
+      "title_bg": "Първо издание на „Работнически вестник“",
+      "title_en": "First Edition of 'Rabotnicheski Vestnik'",
+      "description_bg": "На 05 септември 1897 е публикувано първото издание на „Работнически вестник“.",
+      "description_en": "On 05 September 1897, the first edition of 'Rabotnicheski Vestnik' was published.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rabotnicheski_vestnik_1897.jpg",
+      "caption": "брой 34 на 'Работнически вестник', снимка: libkazanlak.com"
+    },
+    {
+      "date": "1899",
+      "title_bg": "Учредителен конгрес на Българския земеделски народен съюз (БЗНС)",
+      "title_en": "Founding Congress of the Bulgarian Agricultural National Union (BZNS)",
+      "description_bg": "През 1899 се провежда учредителният конгрес на Българския земеделски народен съюз (БЗНС).",
+      "description_en": "In 1899, the founding congress of the Bulgarian Agricultural National Union (BZNS) took place.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/BZNS_.jpeg",
+      "caption": ""
+    },
+    {
+      "date": "01 януари 1901",
+      "title_bg": "Пускане в експлоатация на първия електрически трамвай",
+      "title_en": "Inauguration of the First Electric Tram in Sofia",
+      "description_bg": "На 01 януари 1901 официално започва движението на първия електрически трамвай в София.",
+      "description_en": "On 01 January 1901, the operation of the first electric tram in Sofia officially began.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purvi_tramvai_sofia_1901.jpg",
+      "caption": ""
+    },
+    {
+      "date": "02-04 януари 1903",
+      "title_bg": "Солунският конгрес на ВМРО",
+      "title_en": "Thessaloniki Congress of IMRO",
+      "description_bg": "През 1903, от 02 до 04 януари, се провежда Солунският конгрес на ВМРО, който взема решение за въстание в Македония и Одринско.",
+      "description_en": "In 1903, from 02 to 04 January, the Thessaloniki Congress of IMRO takes place, deciding on an uprising in Macedonia and Adrianople regions.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/VMORO_1903.jpg",
+      "caption": ""
+    },
+    {
+      "date": "02 август 1903",
+      "title_bg": "Начало на Илинденско-Преображенско въстание",
+      "title_en": "Start of the Ilinden-Preobrazhensko Uprising",
+      "description_bg": "На 02 август 1903 започва Илинденско-Преображенското въстание за освобождение на Македония и Одринска Тракия.",
+      "description_en": "On 02 August 1903, the Ilinden-Preobrazhensko Uprising for the liberation of Macedonia and Adrianople Thrace begins.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ilindensko_preobrajensko_vustanie.jpg",
+      "caption": ""
+    },
+    {
+      "date": "26 март 1904",
+      "title_bg": "Подписване на българо-турско споразумение",
+      "title_en": "Signing of the Bulgarian-Turkish Agreement",
+      "description_bg": "На 26 март 1904 е подписана българо-турската спогодба, с което България официално се отказва от подкрепата за революционните движения в Османската империя.",
+      "description_en": "On 26 March 1904, the Bulgarian-Turkish agreement was signed, through which Bulgaria officially renounces its support for revolutionary movements in the Ottoman Empire.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaro_turksa_spogodba_1904.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "4 април 1904",
+      "title_bg": "Земетресение в Кресненското дефиле",
+      "title_en": "Earthquake in the Kresna Defile",
+      "description_bg": "През 1904 г. силно земетресение с магнитуд 7.83 по Рихтер разтърсва Кресненското дефиле, нанасяйки значителни щети и предизвиквайки промени в местната инфраструктура.",
+      "description_en": "In 1904, a powerful earthquake with a magnitude of 7.83 on the Richter scale shook the Kresna Defile, causing significant damage and prompting changes in local infrastructure.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/kresna_zemetrus_1904.jpg",
+      "caption": ""
+    },
+    {
+      "date": "22 януари 1905",
+      "title_bg": "Въвеждане на първия Закон за защита на труда",
+      "title_en": "Implementation of the First Labor Protection Law",
+      "description_bg": "На 22 януари 1905 е въведен първият Закон за защита на женския и детския труд в България.",
+      "description_en": "On 22 January 1905, the first Law for the protection of women's and children's labour was implemented in Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/zakon_za_truda_1905.jpg",
+      "caption": ""
+    },
+    {
+      "date": "03 януари 1907",
+      "title_bg": "Основаване на Българския народен театър",
+      "title_en": "Establishment of the Bulgarian National Theatre",
+      "description_bg": "На 03 януари 1907 е основан Българският народен театър (днес Народен театър „Иван Вазов“).",
+      "description_en": "On 03 January 1907, the Bulgarian National Theatre (now Ivan Vazov National Theatre) was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/naroden_teatur_1907.jpg",
+      "caption": "Снимка: nationaltheatre.bg"
+    },
+    {
+      "date": "22 септември 1908",
+      "title_bg": "Обявяване на независимостта на България",
+      "title_en": "Declaration of Bulgarian Independence",
+      "description_bg": "На 22 септември 1908 в Велико Търново, княз Фердинанд I обявява независимостта на България, като Княжество България се превръща в Царство България.",
+      "description_en": "On 22 September 1908 in Veliko Tarnovo, Tsar Ferdinand I declares Bulgarian independence, transforming the Principality of Bulgaria into the Kingdom of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/nezavisimost_bulgaria_1908.jpg",
+      "caption": ""
+    },
+    {
+      "date": "06 април 1909",
+      "title_bg": "Признаване на независимостта на България",
+      "title_en": "Ottoman Recognition of Bulgarian Independence",
+      "description_bg": "На 06 април 1909, Османската империя признава независимостта на България срещу финансово обезщетение.",
+      "description_en": "On 06 April 1909, the Ottoman Empire recognizes Bulgarian independence in exchange for financial compensation.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/priznavane_nezavisimost.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "05 октомври 1912",
+      "title_bg": "Начало на Първата Балканска война",
+      "title_en": "Start of the First Balkan War",
+      "description_bg": "На 05 октомври 1912 започва Първата Балканска война срещу Османската империя.",
+      "description_en": "On 05 October 1912, the First Balkan War against the Ottoman Empire begins.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purva_balkanska_voyna.jpg",
+      "caption": ""
+    },
+    {
+      "date": "16 юни 1913",
+      "title_bg": "Начало на Втората Балканска война",
+      "title_en": "Start of the Second Balkan War",
+      "description_bg": "На 16 юни 1913 започва Втората Балканска война (Междусъюзническа) между България и бившите ѝ съюзници.",
+      "description_en": "On 16 June 1913, the Second Balkan War (between former allies) begins between Bulgaria and its former allies.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/mejdusuiznicheska_voyna%20(1).jpg",
+      "caption": ""
+    },
+    {
+      "date": "28 юли 1913",
+      "title_bg": "Подписване на Букурещкия мирен договор",
+      "title_en": "Signing of the Bucharest Peace Treaty",
+      "description_bg": "На 28 юли 1913 е подписан Букурещкият мирен договор, с който България губи територии.",
+      "description_en": "On 28 July 1913, the Bucharest Peace Treaty was signed, resulting in territorial losses for Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Bulgaria_in_1913_geographic_map-bg.jpg",
+      "caption": "Автор: Ikonact & Пакко, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "01 октомври 1915",
+      "title_bg": "Влизане на България в Първата световна война",
+      "title_en": "Bulgaria Enters World War I",
+      "description_bg": "На 01 октомври 1915 България влиза в Първата световна война на страната на Централните сили.",
+      "description_en": "On 01 October 1915, Bulgaria enters World War I on the side of the Central Powers.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_vliza_purva_svetovna_1915.jpg",
+      "caption": ""
+    },
+    {
+      "date": "14 октомври 1915",
+      "title_bg": "Обявяване на война от Англия и Франция",
+      "title_en": "Declaration of War on Bulgaria by England and France",
+      "description_bg": "На 14 октомври 1915 Англия и Франция обявяват война на България.",
+      "description_en": "On 14 October 1915, England and France declare war on Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/voyna_franciq_angliq_purva_svetovna.jpg",
+      "caption": ""
+    },
+    {
+      "date": "12 март 1916",
+      "title_bg": "Въвеждане на григорианския календар",
+      "title_en": "Adoption of the Gregorian Calendar",
+      "description_bg": "На 12 март 1916, със закон се въвежда григорианският календар в България.",
+      "description_en": "On 12 March 1916, the Gregorian calendar was introduced in Bulgaria by law.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vuvegdane_grigorianski_kalendar_1916.jpg",
+      "caption": ""
+    },
+    {
+      "date": "01 септември 1916",
+      "title_bg": "Обявяване на война на Румъния",
+      "title_en": "Bulgaria Declares War on Romania",
+      "description_bg": "На 01 септември 1916 България обявява война на Румъния.",
+      "description_en": "On 01 September 1916, Bulgaria declares war on Romania.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_first_world_war_romania.jpg",
+      "caption": ""
+    },
+    {
+      "date": "07 май 1918",
+      "title_bg": "Българо-румънски договор за Южна Добруджа",
+      "title_en": "Bulgarian–Romanian Treaty for Southern Dobruja",
+      "description_bg": "На 07 май 1918 в Букурещ е сключен българо-румънски договор за връщане на Южна Добруджа на България и прекратяване на войната между тях.",
+      "description_en": "On 07 May 1918 in Bucharest, a Bulgarian–Romanian treaty was signed for the return of Southern Dobruja to Bulgaria and the cessation of hostilities between the two nations.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_romania_peace_treaty.jpg",
+      "caption": ""
+    },
+    {
+      "date": "29 септември 1918",
+      "title_bg": "Подписване на Солунското примирие",
+      "title_en": "Signing of the Thessaloniki Armistice",
+      "description_bg": "На 29 септември 1918 е подписано Солунското примирие, с което България капитулира в Първата световна война.",
+      "description_en": "On 29 September 1918, the Thessaloniki Armistice was signed, leading to Bulgaria's capitulation in World War I.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/solunsko_primirie_1918.jpg",
+      "caption": ""
+    },
+    {
+      "date": "03 октомври 1918",
+      "title_bg": "Абдикация на цар Фердинанд",
+      "title_en": "Abdication of Tsar Ferdinand",
+      "description_bg": "На 03 октомври 1918 цар Фердинанд абдикира в полза на сина си Борис III.",
+      "description_en": "On 03 October 1918, Tsar Ferdinand abdicates in favor of his son Boris III.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/knqz_Ferdinant.jpeg", 
+      "caption": ""
+    },
+    {
+      "date": "17 август 1919",
+      "title_bg": "Победа на БЗНС в парламентарните избори",
+      "title_en": "BZNS Wins Parliamentary Elections",
+      "description_bg": "На 17 август 1919 Българският земеделски народен съюз (БЗНС) печели парламентарните избори, а месеци по-късно Александър Стамболийски става министър-председател на България.",
+      "description_en": "On 17 August 1919, the Bulgarian Agricultural National Union (BZNS) wins the parliamentary elections, and months later, Alexander Stamboliyski becomes Prime Minister of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bzns_upravlenie.jpg",
+      "caption": ""
+    },
+    {
+      "date": "27 ноември 1919",
+      "title_bg": "Подписване на Ньойския договор",
+      "title_en": "Signing of the Neuilly Treaty",
+      "description_bg": "На 27 ноември 1919 е подписан Ньойският договор, който налага тежки териториални загуби и репарации за България.",
+      "description_en": "On 27 November 1919, the Neuilly Treaty was signed, imposing severe territorial losses and reparations on Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/noyski_dogovor_1919.jpg",
+      "caption": ""
+    },
+    {
+      "date": "24 декември 1919",
+      "title_bg": "Транспортна стачка",
+      "title_en": "Transportation Strike",
+      "description_bg": "На 24 декември 1919 е организирана транспортна стачка от Общия работнически синдикален съюз и БКП.",
+      "description_en": "On 24 December 1919, a transportation strike was organized by the General Workers' Trade Union and the Bulgarian Communist Party.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/transportna_stachka.jpg",
+      "caption": ""
+    },
+    {
+      "date": "09 юни 1923",
+      "title_bg": "Военен преврат срещу Стамболийски",
+      "title_en": "Military Coup against Stamboliyski",
+      "description_bg": "На 09 юни 1923 се извършва военен преврат срещу Александър Стамболийски, водещ до свалянето на БЗНС от власт.",
+      "description_en": "On 09 June 1923, a military coup is carried out against Alexander Stamboliyski, resulting in the overthrow of the BZNS government.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/prevrat_sreshtu_al_stamboliiski_1923.jpg",
+      "caption": ""
+    },
+    {
+      "date": "септември 1923",
+      "title_bg": "Септемврийско въстание",
+      "title_en": "September Uprising",
+      "description_bg": "През септември 1923 се провежда Септемврийското въстание срещу новото правителство, организирано от комунистите.",
+      "description_en": "In September 1923, the September Uprising takes place against the new government, organized by the communists.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/septemvriisko_vustanie_1923.jpg",
+      "caption": ""
+    },
+    {
+      "date": "16 април 1925",
+      "title_bg": "Атентат в църквата 'Света Неделя'",
+      "title_en": "Assassination Attempt at 'Sveta Nedelya' Church",
+      "description_bg": "На 16 април 1925 е извършен атентат в църквата 'Света Неделя'.",
+      "description_en": "On 16 April 1925, an assassination attempt was carried out at the 'Sveta Nedelya' Church.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/sveta_Nedelya_atentat.jpg",
+      "caption": ""
+    },
+    {
+      "date": "05 март 1927",
+      "title_bg": "Първо издание на 'Работническо дело'",
+      "title_en": "First Edition of 'Rabotnichesko Delo'",
+      "description_bg": "На 05 март 1927 е публикувано първото издание на вестник 'Работническо дело'.",
+      "description_en": "On 05 March 1927, the first edition of the 'Rabotnichesko Delo' newspaper was published.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rabotnichesko_delo_1927.jpg",
+      "caption": "На снимката: брой 323, 1949 г."
+    },
+    {
+      "date": "14 април 1928",
+      "title_bg": "Голямото Чирпанско земетресение",
+      "title_en": "The Great Chirpan Earthquake",
+      "description_bg": "На 14 април 1928 е настъпило Голямото Чирпанско земетресение с магнтут от 7.0 по скалата на Рихтер.",
+      "description_en": "On 14 April 1928, the Great Chirpan Earthquake occurred with a magnitude of 7.0 on the Richter scale.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Chirpan_Earthquake_-_Plovdiv.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1930",
+      "title_bg": "Създаване на 'Родно радио'",
+      "title_en": "Establishment of 'Rodno Radio'",
+      "description_bg": "През 1930 е създадено първото българско радио 'Родно радио'.",
+      "description_en": "In 1930, the first Bulgarian radio station 'Rodno Radio' was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rodno_radio_first_bgradio.jpg",
+      "caption": ""
+    },
+    {
+      "date": "19 май 1934",
+      "title_bg": "Военен преврат и авторитарен режим",
+      "title_en": "Military Coup and Authoritarian Regime",
+      "description_bg": "На 19 май 1934 се извършва военен преврат, който води до премахването на политическите партии и установяването на авторитарен режим.",
+      "description_en": "On 19 May 1934, a military coup took place, leading to the dissolution of political parties and the establishment of an authoritarian regime.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/prevrat_avtoritaren_rejim_1934.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1934",
+      "title_bg": "Преименуване на селища",
+      "title_en": "Renaming of Settlements",
+      "description_bg": "През 1934 са променени имената на над 1000 селища в България, като много турски и гръцки имена са заменени с български.",
+      "description_en": "In 1934, the names of over 1000 settlements in Bulgaria were changed, with many Turkish and Greek names replaced by Bulgarian ones.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/naseleni_mesta_preimenuvane_1934.jpg",
+      "caption": "Изображение: ogistoyanov.com"
+    },
+    {
+      "date": "20 април 1935",
+      "title_bg": "Стартиране на първата автобусна линия",
+      "title_en": "Launch of the First Public Bus Line",
+      "description_bg": "На 20 април 1935 в София започва работа първата обществена автобусна линия.",
+      "description_en": "On 20 April 1935, the first public bus line in Sofia began operation.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purva_avtobusna_liniq.jpg",
+      "caption": "Снимка: sofiahistorymuseum.b"
+    },
+    {
+      "date": "23 ноември 1935",
+      "title_bg": "Личен режим на цар Борис III",
+      "title_en": "Tsar Boris III's Personal Regime",
+      "description_bg": "На 23 ноември 1935 цар Борис III установява личен режим и отстранява правителството на Кимон Георгиев.",
+      "description_en": "On 23 November 1935, Tsar Boris III established a personal regime and dismissed Kimon Georgiev's government.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/boris_III_1935.jpg",
+      "caption": "Снимка: royalbulgariaincolour.com, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "01 септември 1939",
+      "title_bg": "Начало на Втората световна война",
+      "title_en": "Start of World War II",
+      "description_bg": "На 01 септември 1939 започва Втората световна война.",
+      "description_en": "On 01 September 1939, World War II began.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/nachalo_vtora_svetovna.jpg",
+      "caption": "Източник: German Federal Archives, CC BY-SA 3.0 de, Wikimedia Commons "
+    },
+    {
+      "date": "07 септември 1940",
+      "title_bg": "Крайовска спогодба",
+      "title_en": "Treaty of Craiova",
+      "description_bg": "На 07 септември 1940 е сключена Крайовската спогодба, с която Южна Добруджа се връща на България.",
+      "description_en": "On 07 September 1940, the Treaty of Craiova was signed, returning Southern Dobruja to Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/krayovksa_spogodba.png",
+      "caption": "Автори: Ikonact & Пакко, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "01 март 1941",
+      "title_bg": "Присъединяване към Тристранния пакт",
+      "title_en": "Joining the Tripartite Pact",
+      "description_bg": "На 01 март 1941 България се присъединява към Тристранния пакт.",
+      "description_en": "On 01 March 1941, Bulgaria joins the Tripartite Pact.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_tristranen_pakt_1941.jpg",
+      "caption": ""
+    },
+    {
+      "date": "13 декември 1941",
+      "title_bg": "Обявяване на война на Англия и САЩ",
+      "title_en": "Declaration of War on England and the USA",
+      "description_bg": "На 13 декември 1941 България обявява война на Англия и САЩ.",
+      "description_en": "On 13 December 1941, Bulgaria declares war on England and the USA.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_war_Usa_england_1941.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "28 август 1943",
+      "title_bg": "Смъртта на цар Борис III",
+      "title_en": "Death of Tsar Boris III",
+      "description_bg": "На 28 август 1943 се отбелязва смъртта на цар Борис III.",
+      "description_en": "On 28 August 1943, the death of Tsar Boris III is recorded.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/smartta-tsar-boris-iii-teorii-i-hipotezi-978.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1944",
+      "title_bg": "Въвеждане на правото на жените да гласуват",
+      "title_en": "Introduction of Women's Suffrage",
+      "description_bg": "През 1944 г. официално е въведено правото на жените да гласуват в България.",
+      "description_en": "In 1944, the right for women to vote was officially introduced in Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/women_vote_first_time_1944.jpg",
+      "caption": "Снимката е илюстративна"
+    },
+    {
+      "date": "10 януари 1944",
+      "title_bg": "Най-тежка бомбардировка над София",
+      "title_en": "Heaviest Bombing of Sofia",
+      "description_bg": "На 10 януари 1944 се извършва най-тежката бомбардировка над София от англо-американската авиация.",
+      "description_en": "On 10 January 1944, the heaviest bombing of Sofia by the Anglo-American air force takes place.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bombardirovki_sofia_1944.jpg",
+      "caption": ""
+    },
+    {
+      "date": "09 септември 1944",
+      "title_bg": "Комунистически преврат и установяване на новото правителство",
+      "title_en": "Communist Coup and Establishment of the New Government",
+      "description_bg": "На 09 септември 1944 се извършва комунистически преврат и се установява новото правителство на Отечествен фронт, начело с Кимон Георгиев.",
+      "description_en": "On 09 September 1944, a communist coup takes place and the new government of the Fatherland Front, led by Kimon Georgiev, is established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/9sept_prevrat_1944.jpg",
+      "caption": ""
+    },
+    {
+      "date": "28 октомври 1944",
+      "title_bg": "Подписване на примирието с България",
+      "title_en": "Signing of the Armistice with Bulgaria",
+      "description_bg": "На 28 октомври 1944 е подписано примирието с България.",
+      "description_en": "On 28 October 1944, the armistice with Bulgaria was signed.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/primire_bulgaria_vtora_svetovna.jpg",
+      "caption": ""
+    },
+    {
+      "date": "15 септември 1946",
+      "title_bg": "Обявяване на Народна република",
+      "title_en": "Declaration of the People's Republic",
+      "description_bg": "На 15 септември 1946 България е обявена за Народна република и преминава към тоталитарен режим.",
+      "description_en": "On 15 September 1946, Bulgaria is declared a People's Republic and transitions to a totalitarian regime.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/narodnaRepublikaBulgaria_1946.jpg",
+      "caption": ""
+    },
+    {
+      "date": "01-04 февруари 1947",
+      "title_bg": "Първа национална конференция на ТКЗС",
+      "title_en": "First National Conference of the Labor Cooperative Agricultural Economy",
+      "description_bg": "От 01 до 04 февруари 1947 се провежда първата национална конференция на Трудовото кооперативно земеделско стопанство (ТКЗС).",
+      "description_en": "From 01 to 04 February 1947, the first national conference of the Labor Cooperative Agricultural Economy (TKZS) takes place.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/tkzs_1947.jpg",
+      "caption": "Снимка: Определяне на стопански двор (1945), автор: Litev, CC BY-SA 4.0, Wikimedia Commons"
+    },
+    {
+      "date": "10 февруари 1947",
+      "title_bg": "Подписване на мирния договор в Париж",
+      "title_en": "Signing of the Peace Treaty in Paris",
+      "description_bg": "На 10 февруари 1947 е подписан мирният договор с България в Париж.",
+      "description_en": "On 10 February 1947, the peace treaty with Bulgaria was signed in Paris.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/paris_miren_dogovor_1947%20(1).jpg",
+      "caption": ""
+    },
+    {
+      "date": "04 декември 1947",
+      "title_bg": "Приемане на Димитровската конституция",
+      "title_en": "Adoption of the Dimitrov Constitution",
+      "description_bg": "На 04 декември 1947 е приета Димитровската конституция.",
+      "description_en": "On 04 December 1947, the Dimitrov Constitution was adopted.",
+      "image": "https://github.com/VT-storage/Storage_bgdated/blob/main/g_dimitrov_konstituciq.jpg",
+      "caption": "Снимка: politburo.archives.bg"
+    },
+    {
+      "date": "27 декември 1947",
+      "title_bg": "Национализация на частните предприятия",
+      "title_en": "Nationalization of Private Enterprises",
+      "description_bg": "На 27 декември 1947 е приет закон за национализация на частните индустриални и минни предприятия.",
+      "description_en": "On 27 December 1947, a law on the nationalization of private industrial and mining enterprises was adopted.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/nacionalizaciq_chasten_biznes_1947.jpg",
+      "caption": "Снимка: ДА Архиви"
+    },
+    {
+      "date": "1948 – 1959",
+      "title_bg": "Колективизация на селското стопанство",
+      "title_en": "Collectivization of Agriculture",
+      "description_bg": "От 1948 до 1959 се провежда колективизация на селското стопанство, като частните земи се национализират.",
+      "description_en": "From 1948 to 1959, the collectivization of agriculture is carried out, with private lands being nationalized.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/selsko_stopanstvo_kolektivizaciq.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1950 – 1060",
+      "title_bg": "Масово жилищно строителство с панелни блокове",
+      "title_en": "Mass Housing Construction with Panel Blocks",
+      "description_bg": "От 1950 до 1060 започва масовото жилищно строителство с панелни блокове в големите градове.",
+      "description_en": "From 1950 to 1060, mass housing construction with panel blocks begins in major cities.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/paneleni_blokove_stroitelstvo.jpg",
+      "caption": ""
+    },
+    {
+      "date": "20 февруари 1950",
+      "title_bg": "Масови изселвания на етнически турци",
+      "title_en": "Mass Displacement of Ethnic Turks",
+      "description_bg": "На 20 февруари 1950 започват масови изселвания на етнически турци.",
+      "description_en": "On 20 February 1950, mass displacements of ethnic Turks begin.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/izselvaniya_turci_1950.jpg",
+      "caption": "Снимка: Jack Birns"
+    },
+    {
+      "date": "1953",
+      "title_bg": "Построяване на Националния стадион „Васил Левски“",
+      "title_en": "Construction of Vasil Levski National Stadium",
+      "description_bg": "През 1953 г. в центъра на София е завършен Националният стадион „Васил Левски“. Разполага с капацитет от 80 000 седящи места.",
+      "description_en": "In 1953, the Vasil Levski National Stadium was completed in the center of Sofia. The stadium had a capacity of 80,000 seats.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/natsionalen_stadion_1953.jpg",
+      "caption": ""
+    },    
+    {
+      "date": "04 март 1954",
+      "title_bg": "Тодор Живков става генерален секретар на БКП",
+      "title_en": "Todor Zhivkov Becomes General Secretary of the BCP",
+      "description_bg": "На 04 март 1954 Тодор Живков става генерален (първи) секретар на Българската комунистическа партия (БКП).",
+      "description_en": "On 04 March 1954, Todor Zhivkov becomes the General (First) Secretary of the Bulgarian Communist Party (BCP).",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/todor_zhivkov_1954.jpg",
+      "caption": ""
+    },
+    {
+      "date": "30 април 1954",
+      "title_bg": "Първо официално телевизионно предаване",
+      "title_en": "First Official Television Broadcast",
+      "description_bg": "На 30 април 1954 е осъществено първото официално телевизионно предаване по безжичен път в България.",
+      "description_en": "On 30 April 1954, the first official television broadcast over wireless was conducted in Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purvo_tv_izluchvane_1954.jpg",
+      "caption": ""
+    },
+    {
+      "date": "20 юни 1954",
+      "title_bg": "Откриване на моста на дружбата",
+      "title_en": "Opening of the Friendship Bridge",
+      "description_bg": "На 20 юни 1954 е открит мостът на дружбата на река Дунав.",
+      "description_en": "On 20 June 1954, the Friendship Bridge over the Danube River was opened.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/most_drujba_dunav1_1954.jpg",
+      "caption": "Снимка: ДА Русе, ЧП 725, л.2"
+    },
+    {
+      "date": "14 декември 1955",
+      "title_bg": "НРБ става членка на ООН",
+      "title_en": "People's Republic Becomes a UN Member",
+      "description_bg": "На 14 декември 1955 Народната република България (НРБ) е приета за членка на ООН.",
+      "description_en": "On 14 December 1955, the People's Republic of Bulgaria (PRB) was admitted as a member of the United Nations.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/oon_bulgaria_joining.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1959",
+      "title_bg": "Създаване на административно-икономически окръзи",
+      "title_en": "Establishment of Administrative-Economic Districts",
+      "description_bg": "През 1959 се създават административно-икономически окръзи.",
+      "description_en": "In 1959, administrative-economic districts are established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/okrazi_bulgaria_1959.jpg",
+      "caption": "Снимка: , CC BY-SA 3.0, Wikimedia Commons"
+    },
+    {
+      "date": "07 ноември 1959",
+      "title_bg": "Създаване на Българска национална телевизия",
+      "title_en": "Establishment of Bulgarian National Television",
+      "description_bg": "През 1959 г. е създадена Българската национална телевизия.",
+      "description_en": "In 1959, Bulgarian National Television (BNT) was established.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bnt_suzdavane_1959.jpg",
+      "caption": "Снимка: БНТ"
+    },
+    {
+      "date": "18 септември 1961",
+      "title_bg": "Завършване на първия атомен реактор",
+      "title_en": "Completion of the First Nuclear Reactor",
+      "description_bg": "На 18 септември 1961 завършва изграждането на първия български атомен реактор.",
+      "description_en": "On 18 September 1961, the construction of the first Bulgarian nuclear reactor is completed.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/qdren_reaktor_1961.png",
+      "caption": "Снимка: bravestories.eu"
+    },
+    {
+      "date": "05 октомври 1963",
+      "title_bg": "Влизане в експлоатация на Завод за електрокари",
+      "title_en": "Commissioning of the Electric Car Factory",
+      "description_bg": "На 05 октомври 1963 заводът за електрокари в София влиза в експлоатация.",
+      "description_en": "On 05 October 1963, the electric car factory in Sofia is commissioned.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/elektrokari_1963.jpg",
+      "caption": ""
+    },
+    {
+      "date": "05 ноември 1963",
+      "title_bg": "Тържествено откриване на МК 'Кремиковци'",
+      "title_en": "Inauguration of the 'Kremikovtsi' Complex",
+      "description_bg": "На 05 ноември 1963 се тържествено открива МК 'Кремиковци'.",
+      "description_en": "On 05 November 1963, the 'Kremikovtsi' complex is inaugurated.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/kremokovtsi_otkrivane.jpg",
+      "caption": ""
+    },
+    {
+      "date": "27 ноември 1962",
+      "title_bg": "Тодор Живков става министър-председател",
+      "title_en": "Todor Zhivkov Becomes Prime Minister",
+      "description_bg": "На 27 ноември 1962 Тодор Живков става министър-председател на България.",
+      "description_en": "On 27 November 1962, Todor Zhivkov becomes Prime Minister of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/todor_jivkov_ministar_predsedatel.jpg",
+      "caption": "Снимка: Fredy.00, CC BY-SA 3.0 cz, Wikimedia Commons"
+    },
+    {
+      "date": "октомври 1963",
+      "title_bg": "Първият български компютър „Витоша“",
+      "title_en": "The First Bulgarian Computer 'Vitosha'",
+      "description_bg": "През октомври 1963 г. България въвежда в експлоатация първия си електронен цифров компютър, наречен „Витоша“.",
+      "description_en": "In October 1963, Bulgaria introduced its first electronic digital computer, named 'Vitosha'.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/computer_Vitosha.jpg",
+      "caption": ""
+    },
+    {
+      "date": "30 декември 1963",
+      "title_bg": "Влизане в експлоатация на Нефтохимическия комбинат край Бургас",
+      "title_en": "Commissioning of the Petrochemical Complex near Burgas",
+      "description_bg": "На 30 декември 1963 влиза в експлоатация Нефтохимическият комбинат край Бургас.",
+      "description_en": "On 30 December 1963, the Petrochemical Complex near Burgas is commissioned.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/neftohim_burgas.jpg",
+      "caption": "Снимка: БТА Архив"
+    },
+    {
+      "date": "20 август 1968",
+      "title_bg": "България участва в Пражката пролет",
+      "title_en": "Bulgaria's Involvement in the Prague Spring",
+      "description_bg": "На 20 август 1968 България участва в Пражката пролет и потушаването на реформите в Чехословакия.",
+      "description_en": "On 20 August 1968, Bulgaria participates in the Prague Spring and the suppression of reforms in Czechoslovakia.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/prajka_prolet.jpg",
+      "caption": ""
+    },
+   
+    {
+      "date": "18 май 1971",
+      "title_bg": "Приемане на новата Конституция на Народна Република България",
+      "title_en": "Adoption of the New Constitution of the People's Republic of Bulgaria",
+      "description_bg": "На 18 май 1971 е приета новата Конституция на Народна Република България.",
+      "description_en": "On 18 May 1971, the new Constitution of the People's Republic of Bulgaria was adopted.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/jivkova_konstituciq.jpg",
+      "caption": ""
+    },
+    {
+      "date": "9 септември 1972",
+      "title_bg": "Първо цветно предаване на Българската телевизия",
+      "title_en": "First Color Broadcast on Bulgarian Television",
+      "description_bg": "На 09 септември 1972 е излъчено първото цветно предаване на Българската телевизия.",
+      "description_en": "On 09 September 1972, the first color broadcast on Bulgarian Television was aired.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/first_color_tvBroadcast_1972.jpg",
+      "caption": ""
+    },
+    {
+      "date": "13 март 1973",
+      "title_bg": "Въвеждане на намалено работно време и петдневна работна седмица",
+      "title_en": "Introduction of Reduced Working Hours and a Five-Day Work Week",
+      "description_bg": "На 13 март 1973 е въведено намалено работно време и петдневна работна седмица.",
+      "description_en": "On 13 March 1973, reduced working hours and a five-day work week were introduced.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/petdnevna_sedmica.jpg",
+      "caption": ""
+    },
+    {
+      "date": "04 септември 1974",
+      "title_bg": "Откриване на АЕЦ 'Козлодуй'",
+      "title_en": "Inauguration of the Kozloduy Nuclear Power Plant",
+      "description_bg": "На 04 септември 1974 е открит АЕЦ 'Козлодуй'.",
+      "description_en": "On 04 September 1974, the Kozloduy Nuclear Power Plant was inaugurated.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/AEC_kozloduy_otkrivane.jpg",
+      "caption": "Снимка: kznpp.org"
+    },
+    {
+      "date": "06 септември 1974",
+      "title_bg": "Тържествено откриване на новата Софийска централна жп гара",
+      "title_en": "Inauguration of the New Sofia Central Railway Station",
+      "description_bg": "На 06 септември 1974 е тържествено открита новата Софийска централна жп гара.",
+      "description_en": "On 06 September 1974, the new Sofia Central Railway Station was ceremoniously inaugurated.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/otkrivane_jp_gara_sofiq.jpg",
+      "caption": "Снимка: БТА Архив /Божидар Тодоров/"
+    },
+    {
+      "date": "04 октомври 1974",
+      "title_bg": "Начало на строителството на магистрала 'Хемус'",
+      "title_en": "Commencement of Construction of the Hemus Motorway",
+      "description_bg": "На 04 октомври 1974 официално започва строителството на магистрала 'Хемус', която трябва да свърже София с Варна.",
+      "description_en": "On 04 October 1974, the construction of the Hemus Motorway, connecting Sofia with Varna, officially begins.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/hemus_purva_kopka_otkrivane.jpg",
+      "caption": ""
+    },
+    {
+      "date": "27 март 1975",
+      "title_bg": "Откриване на ТЕЦ 'Бобов дол'",
+      "title_en": "Inauguration of the 'Bobov Dol' Thermal Power Plant",
+      "description_bg": "На 27 март 1975 е тържествено открит ТЕЦ 'Бобов дол' – първата голяма ТЕЦ, изцяло проектирана от български специалисти.",
+      "description_en": "On 27 March 1975, the 'Bobov Dol' Thermal Power Plant was ceremoniously inaugurated – the first major thermal power plant entirely designed by Bulgarian experts.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/TEC_bobov_dol_otkrivane.jpg",
+      "caption": ""
+    },
+    {
+      "date": "септември 1976",
+      "title_bg": "Откриване на 'Аспаруховият мост' и плавателния канал във Варна",
+      "title_en": "Inauguration of the 'Asparuhov Bridge' and the Navigation Canal in Varna",
+      "description_bg": "През септември 1976 са открити 'Аспаруховият мост' и плавателният канал във Варна.",
+      "description_en": "In September 1976, the 'Asparuhov Bridge' and the navigation canal in Varna were inaugurated.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/asparuhov_most_1976.jpg",
+      "caption": ""
+    },
+    {
+      "date": "10 април 1979",
+      "title_bg": "Първият български космонавт",
+      "title_en": "First Bulgarian Cosmonaut",
+      "description_bg": "На 10 април 1979 Българинът Георги Иванов става първият български космонавт.",
+      "description_en": "On 10 April 1979, Bulgarian Georgi Ivanov becomes the first Bulgarian cosmonaut.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/goergi_ivanov_purvi_kosmonavt.jpg",
+      "caption": "Снимка: Svilen1970, CC BY-SA 4.0, WIkimedia Commons"
+    },
+    {
+      "date": "1980",
+      "title_bg": "Производство на първия български персонален микрокомпютър ИМКО-1",
+      "title_en": "Production of the First Bulgarian Personal Computer IMKO-1",
+      "description_bg": "През 1980 е произведен първият български персонален микрокомпютър ИМКО-1.",
+      "description_en": "In 1980, the first Bulgarian personal computer, IMKO-1, was produced.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/imko1_purvi_personalen_bg_computer.jpg",
+      "caption": "Снимка: amuseum.bg"
+    },
+    {
+      "date": "19 юли 1980",
+      "title_bg": "Летни олимпийски игри 1980 в Москва - 41 медала за България",
+      "title_en": "1980 Summer Olympics in Moscow - 41 medals for Bulgaria",
+      "description_bg": "По време на Летните олимпийски игри в Москва България постига най-успешното си представяне, спечелвайки 41 медала, което я поставя на трето място в общото класиране по медали.",
+      "description_en": "During the Summer Olympics in Moscow 1980 Bulgaria achieved its most successful performance, winning 41 medals, placing third in the overall medal standings.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/olympic_1980_moscow_bulgaria.jpg",
+      "caption": "Снимка: bgolympic.org"
+    },
+    {
+      "date": "1981",
+      "title_bg": "1300-годишнина на България",
+      "title_en": "1300th Anniversary of Bulgaria",
+      "description_bg": "През 1981 се отбелязва 1300-годишнината на България със строителството на паметници, включително '1300 години България' в София.",
+      "description_en": "In 1981, the 1300th anniversary of Bulgaria is commemorated with the construction of monuments, including '1300 години България' in Sofia.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/1300years_bulgaria_parade.jpg",
+      "caption": "Снимка: militarymuseum.bg"
+    },
+    {
+      "date": "31 март 1981",
+      "title_bg": "Откриване на Националния дворец на културата (НДК)",
+      "title_en": "Inauguration of the National Palace of Culture (NPC)",
+      "description_bg": "На 31 март 1981 е открит Националният дворец на културата (НДК) в София – най-големият културен и конгресен център на Балканите.",
+      "description_en": "On 31 March 1981, the National Palace of Culture (NPC) in Sofia, the largest cultural and congress center in the Balkans, is inaugurated.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ndk_otkrivane.jpg",
+      "caption": "Снимка: ndk.bg"
+    },    
+    {
+      "date": "1984",
+      "title_bg": "Пускане на първия от серията 'Правец – Правец 16'",
+      "title_en": "Release of the First Pravets-16 Computer",
+      "description_bg": "През 1984 излиза първият от серията 'Правец – Правец 16'.",
+      "description_en": "In 1984, the first computer from the Pravets – Pravets 16 series was released.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/pravets16_1984.png",
+      "caption": "Снимка: pravetz.info"
+    },
+    {
+      "date": "1984–1985",
+      "title_bg": "Възродителен процес",
+      "title_en": "Revival Process",
+      "description_bg": "През 1984–1985 се извършва възродителен процес – насилствена смяна на имената на българските турци.",
+      "description_en": "From 1984 to 1985, the Revival Process takes place – a forced renaming of the Bulgarian Turks.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/smqna_imena_turci_1985.jpg",
+      "caption": "Снимка: БТА"
+    },
+    {
+      "date": "1987",
+      "title_bg": "Начало на строителството на АЕЦ 'Белене'",
+      "title_en": "Commencement of the Belene Nuclear Power Plant Construction",
+      "description_bg": "През 1987 България започва строителството на АЕЦ 'Белене' с цел повишаване на енергийната сигурност на страната.",
+      "description_en": "In 1987, Bulgaria begins the construction of the Belene Nuclear Power Plant to enhance the country's energy security.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/AEC_belene_izgrajdane.jpg",
+      "caption": "Снимка: БТА"
+    },
+    {
+      "date": "30 август 1987",
+      "title_bg": "Световен рекорд на Стефка Костадинова в скока на височина",
+      "title_en": "Stefka Kostadinova's High Jump World Record",
+      "description_bg": "На 30 август 1987 г. на Световното първенство по лека атлетика в Рим, Стефка Костадинова поставя световен рекорд в скока на височина с постижение от 209 см. Този рекорд остава ненадминат до 7 юли 2024 г.",
+      "description_en": "On August 30, 1987, at the World Athletics Championships in Rome, Stefka Kostadinova set a high jump world record with a leap of 2.09 meters. This record stood until July 7, 2024.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/stefka_kostadinova_world_record_jump.jpg",
+      "caption": ""
+    },
+    {
+      "date": "10 ноември 1989",
+      "title_bg": "Падането на Тодор Живков и краят на социализма",
+      "title_en": "Fall of Todor Zhivkov and the End of Socialism",
+      "description_bg": "На 10 ноември 1989 се случва падането на Тодор Живков и краят на социализма.",
+      "description_en": "On 10 November 1989, Todor Zhivkov falls and socialism comes to an end.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/padane_Todor_Jivkov.jpg",
+      "caption": ""
+    },
+    {
+      "date": "15 ноември 1990",
+      "title_bg": "Преобразуване на Народна Република България в Република България",
+      "title_en": "Transformation from the People's Republic of Bulgaria to the Republic of Bulgaria",
+      "description_bg": "На 15 ноември 1990 Народна Република България се превръща в Република България.",
+      "description_en": "On 15 November 1990, the People's Republic of Bulgaria transforms into the Republic of Bulgaria.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Republic_of_Bulgaria.jpg",
+      "caption": ""
+    },
+    {
+      "date": "1990",
+      "title_bg": "Луканова зима",
+      "title_en": "Lukanov's Winter",
+      "description_bg": "През зимата на 1990 г., по време на управлението на премиера Андрей Луканов, България изпитва тежка икономическа криза, характеризираща се с празни магазини и липса на основни стоки.",
+      "description_en": "During the winter of 1990, under Prime Minister Andrey Lukanov's administration, Bulgaria experienced a severe economic crisis marked by empty stores and a shortage of basic goods.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/lukanova_zima_1990.jpg",
+      "caption": ""
+    },
+    {
+      "date": "12 юли 1991",
+      "title_bg": "Приемане на новата Конституция на Република България",
+      "title_en": "Adoption of the New Constitution of the Republic of Bulgaria",
+      "description_bg": "На 12 юли 1991 е приета новата Конституция на Република България.",
+      "description_en": "On 12 July 1991, the new Constitution of the Republic of Bulgaria was adopted.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/konstituciq_bulgaria_1991.jpg",
+      "caption": ""
+    },
+    {
+      "date": "10 юли 1994",
+      "title_bg": "Полуфинал на Световното първенство по футбол",
+      "title_en": "World Cup Football Semifinal",
+      "description_bg": "На 10 юли 1994 България стига до полуфинал на Световното първенство по футбол в САЩ.",
+      "description_en": "On 10 July 1994, Bulgaria reaches the semifinal of the FIFA World Cup in the USA.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_germany_1994_footbal.jpg",
+      "caption": "Снимка: Getty images"
+    },
+    {
+      "date": "1996",
+      "title_bg": "Голяма финансова криза",
+      "title_en": "Major Financial Crisis",
+      "description_bg": "През 1996 България преживява голяма финансова криза, хиперинфлация и срив на банковата система.",
+      "description_en": "In 1996, Bulgaria experiences a major financial crisis, hyperinflation, and a collapse of the banking system.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/finansova_kriza_1996.jpg",
+      "caption": "Снимка: dnevnik.bg"
+    },
+    {
+      "date": "10 януари 1997",
+      "title_bg": "Протести срещу правителството на Жан Виденов",
+      "title_en": "Protests Against Zhan Videnov's Government",
+      "description_bg": "На 10 януари 1997 протестите срещу правителството на Жан Виденов водят до неговото сваляне от власт.",
+      "description_en": "On 10 January 1997, protests against Zhan Videnov's government lead to its downfall.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/protesti_jan_videnov_1997.jpg",
+      "caption": "Снимка: БТА /Мартин Георгиев/ архив"
+    },
+    {
+      "date": "01 юли 1997",
+      "title_bg": "Въвеждане на валутния борд",
+      "title_en": "Introduction of the Currency Board",
+      "description_bg": "На 01 юли 1997 се въвежда валутният борд, като левът се фиксира към германската марка, по-късно към еврото.",
+      "description_en": "On 01 July 1997, a currency board is introduced, fixing the lev to the German mark (later to the euro).",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/valuten_bord_1997.jpg",
+      "caption": "Снимка: dir.bg"
+    },
+    {
+      "date": "28 януари 1998",
+      "title_bg": "Откриване на първата линия на софийското метро",
+      "title_en": "Opening of the First Sofia Metro Line",
+      "description_bg": "На 28 януари 1998 е открита първата линия на софийското метро, свързваща станциите „Сливница“ и „Константин Величков“.",
+      "description_en": "On 28 January 1998, the first line of the Sofia Metro, connecting the 'Slivnitsa' and 'Konstantin Velichkov' stations, is inaugurated.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/purva_liniq_metro_sofiq_otkrivane.jpg",
+      "caption": "Снимка: capital.bg"
+    },
+    {
+      "date": "29 март 2004",
+      "title_bg": "Членство в НАТО",
+      "title_en": "Joining NATO",
+      "description_bg": "На 29 март 2004 Република България става член на Организацията на Северноатлантическия договор (НАТО).",
+      "description_en": "On 29 March 2004, the Republic of Bulgaria becomes a member of the North Atlantic Treaty Organization (NATO).",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Flag_of_NATO.jpg",
+      "caption": ""
+    },
+    {
+      "date": "01 януари 2007",
+      "title_bg": "Членство в Европейския съюз",
+      "title_en": "Joining the European Union",
+      "description_bg": "На 01 януари 2007 Република България става член на Европейския съюз.",
+      "description_en": "On 01 January 2007, the Republic of Bulgaria becomes a member of the European Union.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_prisuedinqvane_EU.jpg",
+      "caption": "Снимка: bulgaria.representation.ec.europa.eu"
+    },
+    {
+      "date": "01 януари 2018",
+      "title_bg": "Председателство на Съвета на Европейския съюз",
+      "title_en": "Presidency of the Council of the European Union",
+      "description_bg": "На 01 януари 2018 България поема председателството на Съвета на Европейския съюз.",
+      "description_en": "On 01 January 2018, Bulgaria assumes the presidency of the Council of the European Union.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Bulgarian_Presidency_of_the_EU_2018.png",
+      "caption": ""
+    },
+    {
+      "date": "01 януари 2025",
+      "title_bg": "Членство в Шенгенското пространство",
+      "title_en": "Full Membership in the Schengen Area",
+      "description_bg": "На 01 януари 2025 България става пълноправен член на Шенгенското пространство.",
+      "description_en": "On 01 January 2025, Bulgaria becomes a full member of the Schengen Area.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/bulgaria_Schengen.jpg",
+      "caption": "Снимка: ankasam.org"
     }
   ]
-  
