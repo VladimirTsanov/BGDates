@@ -626,7 +626,8 @@
       "title_en": "Battle of Shipka Pass during the Russo-Turkish War",
       "description_bg": "От 9 до 11 август 1877 г. в Шипченския проход руско-българският отряд успешно отбранява позициите си срещу османските войски, оказвайки решаващо влияние върху хода на войната и освобождението на България.",
       "description_en": "From August 9 to 11, 1877, at Shipka Pass, the Russo-Bulgarian detachment successfully defended its positions against the Ottoman forces, playing a crucial role in the course of the war and Bulgaria's liberation.",
-      "image": ""
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/shipka_battle.jpg",
+      "caption": ""
     },    
     {
       "date": "10 декември 1877",
