@@ -1080,6 +1080,15 @@
       "caption": ""
     },
     {
+      "date": "12–14 септември 1924 г.",
+      "title_bg": "Освещаване на храм-паметник „Свети Александър Невски“",
+      "title_en": "Consecration of the St. Alexander Nevsky Cathedral",
+      "description_bg": "Храм-паметник „Свети Александър Невски“ в София е осветен в периода 12–14 септември 1924 г., като най-големият православен храм на Балканския полуостров по това време.",
+      "description_en": "The St. Alexander Nevsky Cathedral in Sofia was consecrated between September 12–14, 1924, as the largest Orthodox church in the Balkan Peninsula at that time.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/aleksandur_nevski_catedrala_osveshtavane.jpg",
+      "caption": ""
+    }, 
+    {
       "date": "16 април 1925",
       "title_bg": "Атентат в църквата 'Света Неделя'",
       "title_en": "Assassination Attempt at 'Sveta Nedelya' Church",
@@ -1458,6 +1467,15 @@
       "caption": ""
     },
     {
+      "date": "октомври 1972 г.",
+      "title_bg": "Откриване на Варненското златно съкровище",
+      "title_en": "Discovery of the Varna Gold Treasure",
+      "description_bg": "През октомври 1972 г. e открит Варненския халколитен некропол при изкопни работи в Западната промишлена зона на Варна. Съкровището, датирано между 4600 и 4200 г. пр. Хр., е признато за най-старото технологично обработено злато в света.",
+      "description_en": "In October 1972 is discovered the Varna Chalcolithic Necropolis during excavation work in Varna's Western Industrial Zone. The treasure, dated between 4600 and 4200 BC, is recognized as the oldest technologically processed gold in the world.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/varnensko_sukrovishte.jpg",
+      "caption": ""
+    },
+    {
       "date": "13 март 1973",
       "title_bg": "Въвеждане на намалено работно време и петдневна работна седмица",
       "title_en": "Introduction of Reduced Working Hours and a Five-Day Work Week",
@@ -1555,7 +1573,16 @@
       "description_en": "On 31 March 1981, the National Palace of Culture (NPC) in Sofia, the largest cultural and congress center in the Balkans, is inaugurated.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ndk_otkrivane.jpg",
       "caption": "Снимка: ndk.bg"
-    },    
+    },
+    {
+      "date": "23 август 1981 г.",
+      "title_bg": "Откриване на паметника Бузлуджа",
+      "title_en": "Inauguration of the Buzludzha Monument",
+      "description_bg": "На 23 август 1981 г. е открит паметникът Бузлуджа – символ на комунистическата епоха в България.",
+      "description_en": "On August 23, 1981, the Buzludzha Monument was inaugurated, symbolizing Bulgaria's communist era.",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/buzludzha_pametnik_otkrivane.jpg",
+      "caption": "Снимка: Михаил Михов"
+    },        
     {
       "date": "1984",
       "title_bg": "Пускане на първия от серията 'Правец – Правец 16'",
@@ -1710,3 +1737,4 @@
       "caption": "Снимка: ankasam.org"
     }
   ]
+  
