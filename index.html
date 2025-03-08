@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div id="bgContainer1" class="bgContainer"></div>
+  <div id="bgContainer2" class="bgContainer"></div>
+
   <div class="controls">
     <label id="choose_lang" for="languageSelect">Изберете език:</label>
     <select id="languageSelect">
@@ -17,10 +20,15 @@
     <label id="date_range" for="dateRange">Изберете диапазон от години:</label>
     <input type="number" id="startDate" placeholder="Начална година">
     <input type="number" id="endDate" placeholder="Крайна година">
+
+    <label id="date_search_year" for="dateSearch">Търси по година:</label>
+    <input type="number" id="year_search" placeholder="Въведи година">
+
+    <label id="text_search" for="textSearch">Търси по описание:</label>
+    <input type="text" id="description_search" placeholder="Въведи текст">
+
     <div><button id="filterBtn">Филтър</button></div>
     <button id="resetBtn">Изчисти филтрирането</button>
-
-
 
     <label id="speed_carousel" for="speedSlider">Скорост на карусела (сек.):</label>
     <div class="slider-container">
@@ -29,8 +37,11 @@
     </div>
   </div>
 
-  <div class="carousel">
-    <div class="carousel_container">
+  <div id="carousel-caption" class="carousel-caption"></div>
+  <div class="carousel-wrapper">
+    <div class="carousel">
+      <div class="carousel_container"></div>
+      <div class="description-box"></div>
     </div>
     <button id="prevBtn">❮</button>
     <button id="nextBtn">❯</button>
