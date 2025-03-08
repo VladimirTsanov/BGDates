@@ -248,7 +248,7 @@
       "title_en": "Battle of Rusokastro",
       "description_bg": "Българските войски побеждават византийските сили при Русокастро през 1332.",
       "description_en": "Bulgarian forces defeat the Byzantine army at Rusokastro in 1332.",
-      "image": "https://github.com/VT-storage/Storage_bgdated/blob/main/rusokastro.jpg",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rusokastro.jpg",
       "caption": ""
     },
     {
@@ -347,8 +347,8 @@
       "title_en": "First Copy of 'Istoriya Slavyanobulgarskaya'",
       "description_bg": "През 1765 Софроний Врачански завършва първия препис на 'История славянобългарска'.",
       "description_en": "In 1765, Sofroniy Vrachanski completes the first copy of 'Istoriya Slavyanobulgarskaya'.",
-      "image": "",
-      "caption": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/istoriq_slavqnobulgarska.jpg"
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/istoriq_slavqnobulgarska.jpg",
+      "caption": ""
     },
     {
       "date": "1824",
@@ -356,8 +356,8 @@
       "title_en": "Publication of 'Riben Bukvar'",
       "description_bg": "Петър Берон издава своя 'Рибен буквар' през 1824, който положи основите на модерната българска образователна система.",
       "description_en": "In 1824, Petar Beron publishes his 'Riben Bukvar', laying the foundations for the modern Bulgarian educational system.",
-      "image": "",
-      "caption": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ribenBukvar_petur_beron.jpg"
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ribenBukvar_petur_beron.jpg",
+      "caption": ""
     },
     {
       "date": "1828",
@@ -381,8 +381,8 @@
       "date": "1841",
       "title_bg": "Откриване на първото девическо училище",
       "title_en": "Establishment of the First Girls' School",
-      "description_bg": "През ноември 1840 е открито първото българско девическо училище в Плевен.",
-      "description_en": "In November 1840, the first Bulgarian girls' school is established in Pleven.",
+      "description_bg": "През ноември 1841 е открито първото българско девическо училище в Плевен.",
+      "description_en": "In November 1841, the first Bulgarian girls' school is established in Pleven.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/first_women_school_bg.jpg",
       "caption": "Снимка: daskalo.com"
     },
@@ -507,7 +507,7 @@
       "date": "1870",
       "title_bg": "Създаване на Българската екзархия",
       "title_en": "Establishment of the Bulgarian Exarchate",
-      "description_bg": "През 1870 с ферман на султана се създава Българската екзархия.",
+      "description_bg": "През 1870, с ферман на султана се създава Българската екзархия.",
       "description_en": "In 1870, the Bulgarian Exarchate was established by a firman from the Sultan.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Sultan%E2%80%99s_Ferman_for_the_establishment_of_a_Bulgarian_Exarchate_1870.jpg",
       "caption": ""
@@ -690,7 +690,7 @@
       "description_bg": "През ноември 1878 е учредена Публична библиотека в София, начало на Народната библиотека.",
       "description_en": "In November 1878, a Public Library was established in Sofia, marking the beginning of the National Library.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/sgrada_biblioteka.jpeg",
-      "caption": "Сградата на биоблиотеката от 1910 г."
+      "caption": "Сградата на библиотеката от 1910 г."
     },
     {
       "date": "25 януари 1879",
@@ -1251,7 +1251,7 @@
     },
     {
       "date": "15 септември 1946",
-      "title_bg": "Обявяване на Народна република",
+      "title_bg": "Обявяване на Народна република България",
       "title_en": "Declaration of the People's Republic",
       "description_bg": "На 15 септември 1946 България е обявена за Народна република и преминава към тоталитарен режим.",
       "description_en": "On 15 September 1946, Bulgaria is declared a People's Republic and transitions to a totalitarian regime.",
@@ -1630,8 +1630,8 @@
     },
     {
       "date": "15 ноември 1990",
-      "title_bg": "Преобразуване на Народна Република България в Република България",
-      "title_en": "Transformation from the People's Republic of Bulgaria to the Republic of Bulgaria",
+      "title_bg": "Преименуване на Народна Република България в Република България",
+      "title_en": "Renaming from the People's Republic of Bulgaria to the Republic of Bulgaria",
       "description_bg": "На 15 ноември 1990 Народна Република България се превръща в Република България.",
       "description_en": "On 15 November 1990, the People's Republic of Bulgaria transforms into the Republic of Bulgaria.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Republic_of_Bulgaria.jpg",
