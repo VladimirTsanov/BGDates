@@ -1,8 +1,9 @@
-const caption_label = document.getElementById("carousel-caption");
 let datesData = [];
 let currentIndex = 0;
 let currentBg = 1;
 let autoSlide;
+let isPaused = false;
+
 
 fetch("dates.json")
   .then(response => response.json())
@@ -12,6 +13,7 @@ fetch("dates.json")
     renderCarousel();
     startAutoSlide();
     updateSlideWidths();
+    resetInactivityTimer();
   })
   .catch(error => console.error("Грешка при зареждане на JSON:", error));
 
@@ -81,12 +83,16 @@ function updateDescription() {
   }
 }
 
-function updateBackgroundImage() {
+function updateBackgroundImage() { 
   const data = datesData[currentIndex];
-  caption_label.textContent = data.caption
+  const advanceData = datesData[currentIndex + 1] || null;
+  const caption_label = document.getElementById("carousel-caption");
+  caption_label.textContent = data.caption;
+
   if (!data || !data.image) return;
 
   const imageUrl = data.image;
+  const imageUrladv = advanceData ? advanceData.image : null;
   const bgContainer1 = document.getElementById("bgContainer1");
   const bgContainer2 = document.getElementById("bgContainer2");
   let visibleContainer, hiddenContainer;
@@ -98,6 +104,7 @@ function updateBackgroundImage() {
     visibleContainer = bgContainer2;
     hiddenContainer = bgContainer1;
   }
+
   const img = new Image();
   img.src = imageUrl;
 
@@ -109,7 +116,14 @@ function updateBackgroundImage() {
       visibleContainer.style.opacity = 0;
       currentBg = currentBg === 1 ? 2 : 1;
 
-      visibleContainer.style.backgroundImage = '';
+      setTimeout(() => {
+        if (imageUrladv) {
+          visibleContainer.style.backgroundImage = `url('${imageUrladv}')`;
+        } else {
+          visibleContainer.style.backgroundImage = `url('${imageUrl}')`;
+        }
+      }, 600);
+      
     }, 50);
   };
 
@@ -117,7 +131,6 @@ function updateBackgroundImage() {
     console.error("Грешка при зареждане на изображението: " + imageUrl);
   };
 }
-
 
 function movePrev() {
   if (currentIndex > 0) {
@@ -176,6 +189,17 @@ speedSlider.addEventListener("mouseover", () => {
   speedTooltip.style.visibility = "visible";
 });
 
+document.getElementById("togglePauseBtn").addEventListener("click", function() {
+  if (isPaused) {
+    startAutoSlide();
+    this.innerHTML = '<span class="material-symbols-outlined">pause</span>';
+  } else {
+    clearInterval(autoSlide);
+    this.innerHTML = '<span class="material-symbols-outlined">play_arrow</span>';
+  }
+  isPaused = !isPaused;
+});
+
 document.getElementById("languageSelect").addEventListener("change", (event) => {
   changeLanguage(event.target.value);
 });
@@ -204,12 +228,15 @@ function changeLanguage(language) {
   renderCarousel();
 }
 
-document.getElementById("filterBtn").addEventListener("click", filterDatesByRange);
+document.getElementById("filterBtn").addEventListener("click", filterDatesByYearRange);
 document.getElementById("resetBtn").addEventListener("click", () => {
   document.getElementById("startDate").value = "";
   document.getElementById("endDate").value = "";
   document.getElementById("year_search").value = "";
   document.getElementById("description_search").value = "";
+  document.getElementById("start-date").value = "";
+  document.getElementById("end-date").value = "";
+  document.getElementById("dateIntervalsPreset").value = "";
   fetch("dates.json")
     .then(response => response.json())
     .then(data => {
@@ -221,31 +248,33 @@ document.getElementById("resetBtn").addEventListener("click", () => {
     .catch(error => console.error("Грешка при зареждане на JSON:", error));
 });
 
-function filterDatesByRange() {
-  let startDate = document.getElementById("startDate").value;
-  let endDate = document.getElementById("endDate").value;
+function getYearFromDateString(dateStr) {
+  const parts = dateStr.trim().split(" ");
+  return parseInt(parts[parts.length - 1]);
+}
+
+function filterDatesByYearRange() {
+  let startYear = document.getElementById("startDate").value;
+  let endYear = document.getElementById("endDate").value;
   let yearSearch = document.getElementById("year_search").value;
   let descriptionSearch = document.getElementById("description_search").value.toLowerCase().trim();
 
-  startDate = startDate === '' ? null : parseInt(startDate);
-  endDate = endDate === '' ? null : parseInt(endDate);
-  yearSearch = yearSearch === '' ? null : parseInt(yearSearch);
+  startYear = startYear === '' ? null : parseInt(startYear);
+  endYear = endYear === '' ? null : parseInt(endYear);
+  yearSearch = yearSearch === '' ? null : yearSearch;
 
   fetch("dates.json")
     .then(response => response.json())
     .then(data => {
       let filteredDates = data.filter(item => {
-        const year = parseInt(item.date);
-        const descriptionBg = item.description_bg.toLowerCase();
-        const descriptionEn = item.description_en.toLowerCase();
-
+        const year = getYearFromDateString(item.date);
         let inRange = true;
-        if (startDate !== null && endDate !== null) {
-          inRange = year >= startDate && year <= endDate;
-        } else if (startDate !== null) {
-          inRange = year >= startDate;
-        } else if (endDate !== null) {
-          inRange = year <= endDate;
+        if (startYear !== null && endYear !== null) {
+          inRange = year >= startYear && year <= endYear;
+        } else if (startYear !== null) {
+          inRange = year >= startYear;
+        } else if (endYear !== null) {
+          inRange = year <= endYear;
         }
 
         let matchesYear = true;
@@ -253,10 +282,9 @@ function filterDatesByRange() {
           matchesYear = item.date.includes(yearSearch);
         }
 
-        let matchesText = descriptionSearch === "" || 
-                          descriptionBg.includes(descriptionSearch) || 
-                          descriptionEn.includes(descriptionSearch);
-
+        let matchesText = descriptionSearch === "" ||
+                          item.description_bg.toLowerCase().includes(descriptionSearch) ||
+                          item.description_en.toLowerCase().includes(descriptionSearch);
         return inRange && matchesYear && matchesText;
       });
 
@@ -273,6 +301,136 @@ function filterDatesByRange() {
     })
     .catch(error => console.error("Грешка при зареждане на JSON:", error));
 }
+
+function parseFullDate(dateString) {
+  const months = {
+      'януари': 1,
+      'февруари': 2,
+      'март': 3,
+      'април': 4,
+      'май': 5,
+      'юни': 6,
+      'юли': 7,
+      'август': 8,
+      'септември': 9,
+      'октомври': 10,
+      'ноември': 11,
+      'декември': 12
+  };
+
+  const parts = dateString.trim().split(' ');
+  if (parts.length === 1) {
+    return new Date(parseInt(parts[0]), 0, 1);
+  } else if (parts.length === 3) {
+    const day = parseInt(parts[0]);
+    const month = months[parts[1].toLowerCase()];
+    const year = parseInt(parts[2]);
+    return new Date(year, month - 1, day);
+  }
+  return new Date();
+}
+
+function filterDatesByFullDateRange() {
+  let startDateStr = document.getElementById("start-date").value;
+  let endDateStr = document.getElementById("end-date").value;
+  let yearSearch = document.getElementById("year_search").value;
+  let descriptionSearch = document.getElementById("description_search").value.toLowerCase().trim();
+
+  let startDateObj = startDateStr ? parseFullDate(startDateStr) : null;
+  let endDateObj = endDateStr ? parseFullDate(endDateStr) : null;
+  yearSearch = yearSearch === '' ? null : yearSearch;
+
+  fetch("dates.json")
+    .then(response => response.json())
+    .then(data => {
+      let filteredDates = data.filter(item => {
+        const itemDateObj = parseFullDate(item.date);
+        let inRange = true;
+        if (startDateObj && endDateObj) {
+          inRange = itemDateObj >= startDateObj && itemDateObj <= endDateObj;
+        } else if (startDateObj) {
+          inRange = itemDateObj >= startDateObj;
+        } else if (endDateObj) {
+          inRange = itemDateObj <= endDateObj;
+        }
+
+        let matchesYear = true;
+        if (yearSearch !== null) {
+          matchesYear = item.date.includes(yearSearch);
+        }
+
+        let matchesText = descriptionSearch === "" ||
+                          item.description_bg.toLowerCase().includes(descriptionSearch) ||
+                          item.description_en.toLowerCase().includes(descriptionSearch);
+        return inRange && matchesYear && matchesText;
+      });
+
+      if (filteredDates.length > 0) {
+        datesData = filteredDates;
+        currentIndex = 0;
+        renderCarousel();
+        startAutoSlide();
+      } else {
+        alert(document.documentElement.lang === "bg" ?
+          "Няма резултати за зададените критерии!" :
+          "No results for the selected criteria!");
+      }
+    })
+    .catch(error => console.error("Грешка при зареждане на JSON:", error));
+}
+
+document.getElementById('dateIntervalsPreset').addEventListener('change', function() {
+  const selectedOption = this.value;
+  let startDate, endDate;
+
+  switch (selectedOption) {
+      case 'oldGreatBg':
+          startDate = '632';
+          endDate = '668';
+          break;
+      case 'firstBg':
+          startDate = '680';
+          endDate = '1018';
+          break;
+      case 'secondBg':
+          startDate = '1185';
+          endDate = '1396';
+          break;
+      case 'ottomanRule':
+          startDate = '1396';
+          endDate = '19 февруари 1878';
+          break;
+      case 'natRevival':
+          startDate = '1762';
+          endDate = '19 февруари 1878';
+          break;
+      case 'princedomBg':
+          startDate = '01 юли 1878';
+          endDate = '22 септември 1908';
+          break;
+      case 'kingdomBg':
+          startDate = '22 септември 1908';
+          endDate = '15 септември 1946';
+          break;
+      case 'socialistBg':
+          startDate = '15 септември 1946';
+          endDate = '15 ноември 1990';
+          break;
+      case 'republicBg':
+          startDate = '15 ноември 1990';
+          endDate = new Date().getFullYear().toString();
+          break;
+      default:
+          startDate = '';
+          endDate = '';
+          break;
+  }
+
+  document.getElementById('start-date').value = startDate;
+  document.getElementById('end-date').value = endDate;
+  filterDatesByFullDateRange();
+});
+
 document.addEventListener("visibilitychange", function () {
   if (document.hidden) {
     clearInterval(autoSlide);
@@ -298,4 +456,36 @@ function updateSlideWidths() {
 
       slide.style.width = newWidth;
   });
+}
+
+const inactivityTime = 90 * 60 * 1000;
+let inactivityTimer;
+
+function resetInactivityTimer() {
+  clearTimeout(inactivityTimer);
+  inactivityTimer = setTimeout(() => {
+    pauseCarousel();
+    showInactivityModal();
+  }, inactivityTime);
+}
+
+document.addEventListener('mousemove', resetInactivityTimer);
+document.addEventListener('keydown', resetInactivityTimer);
+document.addEventListener('click', resetInactivityTimer);
+
+
+function pauseCarousel() {
+  clearInterval(autoSlide);
+}
+
+function resumeCarousel() {
+  startAutoSlide();
+  resetInactivityTimer();
+}
+
+function showInactivityModal() {
+  const isActive = confirm("Изглежда, че сте неактивни. Натиснете OK, за да продължите.");
+  if (isActive) {
+    resumeCarousel();
+  }
 }
