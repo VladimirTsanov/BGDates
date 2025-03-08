@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Тест на Carousel</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body>
   <div id="bgContainer1" class="bgContainer"></div>
@@ -21,6 +22,26 @@
     <input type="number" id="startDate" placeholder="Начална година">
     <input type="number" id="endDate" placeholder="Крайна година">
 
+    <div id="date-range-menu">
+      <input type="text" id="start-date" placeholder="Въведете начална дата">
+      <input type="text" id="end-date" placeholder="Въведете крайна дата">
+      <label id="presetDatesText" for="intervalPresets">Изберете период от историята на България: </label>
+      <select id="dateIntervalsPreset">
+        <option value="" disabled selected>Изберете опция...</option>
+        <option value="oldGreatBg">Стара Велика България (632 - 668 г.)</option>
+        <option value="firstBg">Първо българско царство (680 - 1018 г.)</option>
+        <option value="secondBg">Второ българско царство (1185–1396 г.)</option>
+        <option value="ottomanRule">Османско владичество (1396 - 1878 г.)</option>
+        <option value="natRevival">Национално възраждане (1762 - 1878 г.)</option>
+        <option value="princedomBg">Княжество България (1878 - 1908 г.)</option>
+        <option value="kingdomBg">Царство България (1908 - 1946 г.)</option>
+        <option value="socialistBg">Народна Република България (1946 - 1990 г.)</option>
+        <option value="republicBg">Република България (1990 - )</option>
+      </select>
+  </div>
+
+    
+
     <label id="date_search_year" for="dateSearch">Търси по година:</label>
     <input type="number" id="year_search" placeholder="Въведи година">
 
@@ -35,6 +56,9 @@
       <input type="range" id="speedSlider" min="1" max="15" step="1" value="6">
       <span id="speedTooltip">6</span>
     </div>
+    <button id="togglePauseBtn">
+      <span class="material-symbols-outlined">pause</span>
+    </button>
   </div>
 
   <div id="carousel-caption" class="carousel-caption"></div>
