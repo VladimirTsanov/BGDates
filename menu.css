@@ -1,0 +1,481 @@
+.menu-container {
+  position: absolute;
+  right: 40px;
+  top: 5vh; 
+  z-index: 20;
+  width: 350px;
+}
+.menu-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  width: auto;
+  float: right;
+  top: -1vh;
+}
+.menu-button-bg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #00966e, #d62612);
+  background-size: 200% 200%;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+.menu-button-bg:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+.menu-button-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  gap: 5px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 200, "GRAD" -25, "opsz" 24;
+  transform: rotate(90deg);
+  transition: transform 0.5s ease;
+}
+.material-symbols-outlined.up {
+  transform: rotate(270deg);
+}
+.dropdown-menu {
+  margin-top: 11vh;
+  width: 100%;
+  background: linear-gradient(180deg, #ffffff, #34c29c, #d62612) border-box;
+  border-radius: 15px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  display: none;
+  overflow: hidden;
+  padding: 5px;
+}
+.dropdown-menu.open {
+  display: block;
+}
+.menu-content {
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 3px solid #00966e;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.menu-item:hover {
+  background-color: #00966e;
+  color: white;
+  transform: translateX(5px);
+}
+.menu-item:hover .menu-icon {
+  color: white;
+}
+.menu-item:first-child {
+  border-radius: 10px 10px 0 0;
+}
+.menu-item:nth-child(even) {
+  border-bottom: 3px solid #e32212;
+}
+.menu-item:nth-child(even):hover {
+  background-color: #e32212;
+}
+.menu-item:last-child {
+  border-bottom: none;
+}
+.menu-icon {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  color: #333;
+  transition: all 0.3s ease;
+}
+.menu-text {
+  font-size: 16px;
+  font-weight: 500;
+  transition: transform 0.3s ease;
+}
+.menu-item:hover .menu-text {
+  transform: translateX(3px);
+}
+.menu-chevron {
+  margin-right: 12px;
+}
+.clear-filter-button {
+  display: block;
+  width: 200px;
+  margin: 12px auto;
+  padding: 12px 20px;
+  background-color: #e32212;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.clear-filter-button:hover {
+  background-color: #c41c0c;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.filter-container,
+.period-list-container,
+.search-container,
+.timeline-control-container {
+  position: absolute;
+  right: 390px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+  overflow: hidden;
+  display: none;
+}
+.filter-container {
+  top: 50px;
+  width: 230px;
+  padding: 20px;
+}
+.period-list-container {
+  top: 100px;
+  width: 28vw;
+  max-width: 28vw;
+  height: 41vh;
+}
+.search-container {
+  top: 150px;
+  width: 40vw;
+  height: 35vh;
+  padding: 20px;
+}
+.search-sections-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.filter-container.active-filter,
+.period-list-container.active-filter,
+.search-container.active-filter,
+.timeline-control-container.active-filter {
+  display: block;
+}
+.filter-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.startYearInput-container,
+.endYearInput-container {
+  position: relative;
+  display: inline-block;
+  width: 60%;
+}
+.startYearInput-container input,
+.endYearInput-container input {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #00a67d;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.startYearInput-container label,
+.endYearInput-container label {
+  position: absolute;
+  left: 5px;
+  top: 30%;
+  background: white;
+  transform: translateY(-50%);
+  padding: 0 5px;
+  font-size: 13px;
+  color: gray;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.startYearInput-container input:focus + label,
+.startYearInput-container input:not(:placeholder-shown) + label,
+.endYearInput-container input:focus + label,
+.endYearInput-container input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 11px;
+  color: #3171fd;
+}
+.startYearInput-container input:focus,
+.startYearInput-container input:not(:placeholder-shown),
+.endYearInput-container input:focus,
+.endYearInput-container input:not(:placeholder-shown) {
+  border-color: #3171fd;
+  box-shadow: 0 0 8px rgba(49, 113, 253, 0.3);
+}
+.diapazon_lines_pic_up {
+  width: 25%;
+  object-fit: cover;
+  position: absolute;
+  top: -1vh;
+  right: -2vw;
+  aspect-ratio: 1 / 1;
+}
+.diapazon_lines_pic_down {
+  width: 25%;
+  object-fit: cover;
+  position: absolute;
+  bottom: -2vh;
+  left: -2vh;
+  aspect-ratio: 1 / 1;
+  transform: scaleX(-1) scaleY(-1);
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.filter-button,
+.search-button {
+  padding: 10px 20px;
+  background-color: #e32212;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(214, 38, 18, 0.3);
+}
+.filter-button:hover,
+.search-button:hover {
+  background-color: #c41c0c;
+  box-shadow: 0 6px 15px rgba(214, 38, 18, 0.4);
+}
+.period-header {
+  padding: 15px 20px;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  background-color: white;
+}
+.line {
+  display: flex;
+  width: 50%;
+  flex-shrink: 0;
+  height: 5px;
+  margin-top: 3px;
+}
+.part {
+  flex: 1;
+  height: 100%;
+}
+.white {
+  background: white;
+  border: 1px solid black;
+  height: 70%;
+}
+.green {
+  background: #00966e;
+}
+.red {
+  background: #d62612;
+}
+.period-list {
+  position: absolute;
+  height: 32vh;
+  max-height: 32vh;
+  width: 28vw;
+  max-width: 28vw;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+.period-list::-webkit-scrollbar {
+  width: 12px;
+}
+.period-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 0 0 8px 0;
+}
+.period-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  border: 3px solid #f1f1f1;
+}
+.period-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.period-item {
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+.period-item:hover {
+  filter: brightness(1.1);
+  transform: translateX(5px);
+}
+.period-item:nth-child(1) {
+  background-color: #6b4226;
+  color: white;
+}
+.period-item:nth-child(2) {
+  background-color: #e2b935;
+  color: black;
+}
+.period-item:nth-child(3) {
+  background-color: #aa6a2e;
+  color: white;
+}
+.period-item:nth-child(4) {
+  background-color: #3b3b3b;
+  color: white;
+}
+.period-item:nth-child(5) {
+  background-color: #e1c699;
+  color: black;
+}
+.period-item:nth-child(6) {
+  background-color: #6d8b93;
+  color: black;
+}
+.period-item:nth-child(7) {
+  background-color: #435372;
+  color: white;
+}
+.period-item:nth-child(8) {
+  background-color: #b22222;
+  color: white;
+}
+.period-item:nth-child(9) {
+  background-color: #0050a0;
+  color: white;
+}
+.image_search {
+  position: absolute;
+  z-index: -1;
+  margin-left: 2vw;
+  margin-bottom: 56px;
+  top: -4vh;
+  width: 70%;
+  aspect-ratio: 3 / 2;
+  opacity: 0.7;
+}
+.search-section {
+  flex: 1;
+  position: relative;
+}
+.search-section:first-child {
+  margin-right: 20px;
+}
+.search-section h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.yearSearch-container,
+.descriptionSearch-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.yearSearch-container input,
+.descriptionSearch-container input {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #00a67d;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.yearSearch-container label,
+.descriptionSearch-container label {
+  position: absolute;
+  left: 5px;
+  top: 30%;
+  background: white;
+  transform: translateY(-50%);
+  padding: 0 5px;
+  font-size: 13px;
+  color: gray;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+.yearSearch-container input:focus + label,
+.descriptionSearch-container input:focus + label,
+.yearSearch-container input:not(:placeholder-shown) + label,
+.descriptionSearch-container input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 11px;
+  color: #3171fd;
+}
+.yearSearch-container input:focus,
+.descriptionSearch-container input:focus,
+.yearSearch-container input:not(:placeholder-shown),
+.descriptionSearch-container input:not(:placeholder-shown) {
+  border-color: #3171fd;
+  box-shadow: 0 0 8px rgba(49, 113, 253, 0.3);
+}
+.search-input2 {
+  height: 100px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.search-button {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+.vertical-divider {
+  display: flex;
+  flex-direction: column;
+  width: 3px;
+  margin: 0 20px;
+}
+.vertical-part {
+  width: 100%;
+  flex: 1;
+}
+.vertical-part.white {
+  background: white;
+  border: 1px solid black;
+  width: 2px;
+}
+.vertical-part.green {
+  background: #00966e;
+}
+.vertical-part.red {
+  background: #d62612;
+}
+.menu-item:hover .filter-container,
+.menu-item:hover .period-list-container,
+.menu-item:hover .search-container,
+.menu-item:hover .timeline-control-container {
+  display: block;
+}
+.active-filter {
+  display: block !important;
+}
