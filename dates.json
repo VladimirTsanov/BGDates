@@ -9,7 +9,7 @@
       "caption": "Снимка: худ. Димитър Гюдженов"
     },
   {
-      "date": "~635",
+      "date": "635",
       "title_bg": "Мирен договор с Византия",
       "title_en": "Peace Treaty with Byzantium",
       "description_bg": "Кубрат сключва съюз с византийския император Ираклий, гарантиращ независимостта на държавата.",
@@ -129,8 +129,8 @@
       "date": "893",
       "title_bg": "Преславският събор",
       "title_en": "The Preslav Council",
-      "description_bg": "Симеон заема българския престол, столицата се премества от Плиска в Преслав, византийското духовенство е изгонено, а старобългарският език става официален. Започва 'Златният век' на българската наука, култура и книжнина.",
-      "description_en": "Simeon takes the Bulgarian throne, the capital is moved from Pliska to Preslav, Byzantine clergy are expelled, and Old Bulgarian becomes the official language. The 'Golden Age' of Bulgarian science, culture, and literature begins.",
+      "description_bg": "Симеон заема българския престол, столицата се премества от Плиска в Преслав, византийското духовенство е изгонено, а старобългарският език става официален. Започва \"Златният век\" на българската наука, култура и книжнина.",
+      "description_en": "Simeon takes the Bulgarian throne, the capital is moved from Pliska to Preslav, Byzantine clergy are expelled, and Old Bulgarian becomes the official language. The \"Golden Age\" of Bulgarian science, culture, and literature begins.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Tsar_simeon_preslavski_subor.jpg",
       "caption": ""
     },
@@ -334,28 +334,28 @@
     },
     {
       "date": "1762",
-      "title_bg": "Завършване на 'История славянобългарска'",
-      "title_en": "Completion of 'Istoriya Slavyanobolgarskaya'",
-      "description_bg": "Паисий Хилендарски завършва своята 'История славянобългарска' през 1762, вдъхновявайки националноосвободителното движение.",
-      "description_en": "In 1762, Paisiy Hilendarski completes his 'Istoriya Slavyanobulgarskaya', inspiring the national revival movement.",
+      "title_bg": "Завършване на \"История славянобългарска\"",
+      "title_en": "Completion of \"Istoriya Slavyanobolgarskaya\"",
+      "description_bg": "Паисий Хилендарски завършва своята \"История славянобългарска\" през 1762, вдъхновявайки националноосвободителното движение.",
+      "description_en": "In 1762, Paisiy Hilendarski completes his \"Istoriya Slavyanobulgarskaya\", inspiring the national revival movement.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/paisi_istoriya.jpg",
       "caption": ""
     },
     {
       "date": "1765",
-      "title_bg": "Първи препис на 'История славянобългарска'",
-      "title_en": "First Copy of 'Istoriya Slavyanobulgarskaya'",
-      "description_bg": "През 1765 Софроний Врачански завършва първия препис на 'История славянобългарска'.",
-      "description_en": "In 1765, Sofroniy Vrachanski completes the first copy of 'Istoriya Slavyanobulgarskaya'.",
+      "title_bg": "Първи препис на \"История славянобългарска\"",
+      "title_en": "First Copy of \"Istoriya Slavyanobolgarskaya\"",
+      "description_bg": "През 1765 Софроний Врачански завършва първия препис на \"История славянобългарска\".",
+      "description_en": "In 1765, Sofroniy Vrachanski completes the first copy of \"Istoriya Slavyanobolgarskaya\".",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/istoriq_slavqnobulgarska.jpg",
       "caption": ""
     },
     {
       "date": "1824",
-      "title_bg": "Издаване на 'Рибен буквар'",
-      "title_en": "Publication of 'Riben Bukvar'",
-      "description_bg": "Петър Берон издава своя 'Рибен буквар' през 1824, който положи основите на модерната българска образователна система.",
-      "description_en": "In 1824, Petar Beron publishes his 'Riben Bukvar', laying the foundations for the modern Bulgarian educational system.",
+      "title_bg": "Издаване на \"Рибен буквар\"",
+      "title_en": "Publication of \"Riben Bukvar\"",
+      "description_bg": "Петър Берон издава своя \"Рибен буквар\" през 1824, който положи основите на модерната българска образователна система.",
+      "description_en": "In 1824, Petar Beron publishes his \"Riben Bukvar\", laying the foundations for the modern Bulgarian educational system.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/ribenBukvar_petur_beron.jpg",
       "caption": ""
     },
@@ -397,10 +397,10 @@
     },
     {
       "date": "20 април 1846",
-      "title_bg": "Поява на първия вестник 'Български орел'",
-      "title_en": "Appearance of the First Newspaper 'Bulgarski Orel'",
-      "description_bg": "На 20 април 1846 се появява първият български вестник - 'Български орел'.",
-      "description_en": "On 20 April 1846, the first Bulgarian newspaper 'Bulgarski Orel' is published.",
+      "title_bg": "Поява на първия вестник \"Български орел\"",
+      "title_en": "Appearance of the First Newspaper \"Bulgarian Eagle\"",
+      "description_bg": "На 20 април 1846 се появява първият български вестник - \"Български орел\".",
+      "description_en": "On 20 April 1846, the first Bulgarian newspaper \"Bulgarian Eagle\" is published.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Balgarski_orel_1846_01.jpg",
       "caption": ""
     },
@@ -433,10 +433,10 @@
     },
     {
       "date": "01 септември 1860",
-      "title_bg": "Първо издание на вестник „Дунавски лебед“",
-      "title_en": "First Edition of the 'Dunavski Lebed' Newspaper",
-      "description_bg": "Първото издание на вестник „Дунавски лебед“ е публикувано на 01 септември 1860.",
-      "description_en": "The first edition of the 'Dunavski Lebed' newspaper was published on 01 September 1860.",
+      "title_bg": "Първо издание на вестник \"Дунавски лебед\"",
+      "title_en": "First Edition of the \"Danube Swan\" Newspaper",
+      "description_bg": "Първото издание на вестник \"Дунавски лебед\" е публикувано на 01 септември 1860.",
+      "description_en": "The first edition of the \"Danube Swan\" newspaper was published on 01 September 1860.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Dunavskiy_lebed_first_issue.jpg",
       "caption": ""
     },
@@ -496,10 +496,10 @@
     },
     {
       "date": "07 ноември 1869",
-      "title_bg": "Първо издание на вестник „Свобода“",
-      "title_en": "First Edition of the 'Svoboda' Newspaper",
-      "description_bg": "Първото издание на вестник „Свобода“ е публикувано на 07 ноември 1869.",
-      "description_en": "The first edition of the 'Svoboda' newspaper was published on 07 November 1869.",
+      "title_bg": "Първо издание на вестник \"Свобода\"",
+      "title_en": "First Edition of the \"Freedom\" Newspaper",
+      "description_bg": "Първото издание на вестник \"Свобода\" е публикувано на 07 ноември 1869.",
+      "description_en": "The first edition of the \"Freedom\" newspaper was published on 07 November 1869.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_svoboda_1869.jpg",
       "caption": ""
     },
@@ -541,19 +541,19 @@
     },
     {
       "date": "1873",
-      "title_bg": "Първо издание на вестник „Независимост“",
-      "title_en": "First Edition of the 'Nezavisimost' Newspaper",
-      "description_bg": "През 1873 е публикувано първото издание на вестник „Независимост“.",
-      "description_en": "The first edition of the 'Nezavisimost' newspaper was published in 1873.",
+      "title_bg": "Първо издание на вестник \"Независимост\"",
+      "title_en": "First Edition of the \"Independancy\" Newspaper",
+      "description_bg": "През 1873 е публикувано първото издание на вестник \"Независимост\".",
+      "description_en": "The first edition of the \"Independancy\" newspaper was published in 1873.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_nezavisimost_1873.jpg",
       "caption": ""
     },
     {
       "date": "08 декември 1874",
-      "title_bg": "Първо издание на вестник „Знаме“",
-      "title_en": "First Edition of the 'Zname' Newspaper",
-      "description_bg": "Първото издание на вестник „Знаме“ е публикувано на 08 декември 1874.",
-      "description_en": "The first edition of the 'Zname' newspaper was published on 08 December 1874.",
+      "title_bg": "Първо издание на вестник \"Знаме\"",
+      "title_en": "First Edition of the \"Flag\" Newspaper",
+      "description_bg": "Първото издание на вестник \"Знаме\" е публикувано на 08 декември 1874.",
+      "description_en": "The first edition of the \"Flag\" newspaper was published on 08 December 1874.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_Zname.png",
       "caption": ""
     },
@@ -586,10 +586,10 @@
     },
     {
       "date": "22 април 1876",
-      "title_bg": "Освещаване на знамето „Свобода или смърт“ от Райна Княгиня",
-      "title_en": "Consecration of the 'Liberty or Death' flag by Rayna Knyaginya",
-      "description_bg": "През 1876 г. Райна Княгиня ушива и освещава знамето „Свобода или смърт“, което се превръща в символ на българското национално освободително движение.",
-      "description_en": "In 1876, Rayna Knyaginya sewed and consecrated the 'Liberty or Death' flag, which became a symbol of the Bulgarian national liberation movement.",
+      "title_bg": "Освещаване на знамето \"Свобода или смърт\" от Райна Княгиня",
+      "title_en": "Consecration of the \"Liberty or Death\" flag by Rayna Knyaginya",
+      "description_bg": "През 1876 г. Райна Княгиня ушива и освещава знамето \"Свобода или смърт\", което се превръща в символ на българското национално освободително движение.",
+      "description_en": "In 1876, Rayna Knyaginya sewed and consecrated the \"Liberty or Death\" flag, which became a symbol of the Bulgarian national liberation movement.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Rayna_Knyaginya%20(1).jpg",
       "caption": ""
     },
@@ -729,7 +729,7 @@
       "caption": ""
     },
     {
-      "date": "02 ноември 1885 – 09 декември 1885",
+      "date": "02 ноември 1885 - 09 декември 1885",
       "title_bg": "Сърбия напада България",
       "title_en": "Serbia Attacks Bulgaria",
       "description_bg": "От 02 ноември 1885 до 07 декември 1885 Сърбия напада България, което води до поражението на сръбската армия при Сливница.",
@@ -793,10 +793,10 @@
     },
     {
       "date": "06 април 1894",
-      "title_bg": "Първо издание на вестник „Мир“",
-      "title_en": "First Edition of the 'Mir' Newspaper",
-      "description_bg": "На 06 април 1894 е публикувано първото издание на вестник „Мир“.",
-      "description_en": "On 06 April 1894, the first edition of the 'Mir' newspaper was published.",
+      "title_bg": "Първо издание на вестник \"Мир\"",
+      "title_en": "First Edition of the \"Peace\" Newspaper",
+      "description_bg": "На 06 април 1894 е публикувано първото издание на вестник \"Мир\".",
+      "description_en": "On 06 April 1894, the first edition of the \"Peace\" newspaper was published.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/vestnik_Mir.jpg",
       "caption": "Източник: Архив на БАН, http://old.cl.bas.bg/"
     },
@@ -847,10 +847,10 @@
     },
     {
       "date": "05 септември 1897",
-      "title_bg": "Първо издание на „Работнически вестник“",
-      "title_en": "First Edition of 'Rabotnicheski Vestnik'",
-      "description_bg": "На 05 септември 1897 е публикувано първото издание на „Работнически вестник“.",
-      "description_en": "On 05 September 1897, the first edition of 'Rabotnicheski Vestnik' was published.",
+      "title_bg": "Първо издание на \"Работнически вестник\"",
+      "title_en": "First Edition of \"Workers Newspaper\"",
+      "description_bg": "На 05 септември 1897 е публикувано първото издание на \"Работнически вестник\".",
+      "description_en": "On 05 September 1897, the first edition of \"Workers Newspaper\" was published.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rabotnicheski_vestnik_1897.jpg",
       "caption": "брой 34 на 'Работнически вестник', снимка: libkazanlak.com"
     },
@@ -1080,29 +1080,29 @@
       "caption": ""
     },
     {
-      "date": "12–14 септември 1924 г.",
-      "title_bg": "Освещаване на храм-паметник „Свети Александър Невски“",
+      "date": "12–14 септември 1924",
+      "title_bg": "Освещаване на храм-паметник \"Свети Александър Невски\"",
       "title_en": "Consecration of the St. Alexander Nevsky Cathedral",
-      "description_bg": "Храм-паметник „Свети Александър Невски“ в София е осветен в периода 12–14 септември 1924 г., като най-големият православен храм на Балканския полуостров по това време.",
+      "description_bg": "Храм-паметник \"Свети Александър Невски\" в София е осветен в периода 12–14 септември 1924 г., като най-големият православен храм на Балканския полуостров по това време.",
       "description_en": "The St. Alexander Nevsky Cathedral in Sofia was consecrated between September 12–14, 1924, as the largest Orthodox church in the Balkan Peninsula at that time.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/aleksandur_nevski_catedrala_osveshtavane.jpg",
       "caption": ""
     }, 
     {
       "date": "16 април 1925",
-      "title_bg": "Атентат в църквата 'Света Неделя'",
-      "title_en": "Assassination Attempt at 'Sveta Nedelya' Church",
-      "description_bg": "На 16 април 1925 е извършен атентат в църквата 'Света Неделя'.",
-      "description_en": "On 16 April 1925, an assassination attempt was carried out at the 'Sveta Nedelya' Church.",
+      "title_bg": "Атентат в църквата \"Света Неделя\"",
+      "title_en": "Assassination Attempt at \"St. Nedelya\" Church",
+      "description_bg": "На 16 април 1925 е извършен атентат в църквата \"Света Неделя\".",
+      "description_en": "On 16 April 1925, an assassination attempt was carried out at the \"St. Nedelya\" Church.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/sveta_Nedelya_atentat.jpg",
       "caption": ""
     },
     {
       "date": "05 март 1927",
-      "title_bg": "Първо издание на 'Работническо дело'",
-      "title_en": "First Edition of 'Rabotnichesko Delo'",
-      "description_bg": "На 05 март 1927 е публикувано първото издание на вестник 'Работническо дело'.",
-      "description_en": "On 05 March 1927, the first edition of the 'Rabotnichesko Delo' newspaper was published.",
+      "title_bg": "Първо издание на \"Работническо дело\"",
+      "title_en": "First Edition of \"Labor Case\"",
+      "description_bg": "На 05 март 1927 е публикувано първото издание на вестник \"Работническо дело\".",
+      "description_en": "On 05 March 1927, the first edition of the \"Labor Case\" newspaper was published.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rabotnichesko_delo_1927.jpg",
       "caption": "На снимката: брой 323, 1949 г."
     },
@@ -1117,10 +1117,10 @@
     },
     {
       "date": "1930",
-      "title_bg": "Създаване на 'Родно радио'",
-      "title_en": "Establishment of 'Rodno Radio'",
-      "description_bg": "През 1930 е създадено първото българско радио 'Родно радио'.",
-      "description_en": "In 1930, the first Bulgarian radio station 'Rodno Radio' was established.",
+      "title_bg": "Създаване на \"Родно радио\"",
+      "title_en": "Establishment of \"Rodno Radio\"",
+      "description_bg": "През 1930 е създадено първото българско радио \"Родно радио\".",
+      "description_en": "In 1930, the first Bulgarian radio station \"Rodno Radio\" was established.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/rodno_radio_first_bgradio.jpg",
       "caption": ""
     },
@@ -1134,7 +1134,7 @@
       "caption": ""
     },
     {
-      "date": "26 август 1934 г.",
+      "date": "26 август 1934",
       "title_bg": "Откриване на паметника Шипка",
       "title_en": "Inauguration of the Shipka Monument",
       "description_bg": "На 26 август 1934 г. е открит паметникът на Шипка, символ на героизма в Освобождението на България.",
@@ -1282,7 +1282,7 @@
       "title_en": "Adoption of the Dimitrov Constitution",
       "description_bg": "На 04 декември 1947 е приета Димитровската конституция.",
       "description_en": "On 04 December 1947, the Dimitrov Constitution was adopted.",
-      "image": "https://github.com/VT-storage/Storage_bgdated/blob/main/g_dimitrov_konstituciq.jpg",
+      "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/g_dimitrov_konstituciq.jpg",
       "caption": "Снимка: politburo.archives.bg"
     },
     {
@@ -1295,7 +1295,7 @@
       "caption": "Снимка: ДА Архиви"
     },
     {
-      "date": "1948 – 1959",
+      "date": "1948-1959",
       "title_bg": "Колективизация на селското стопанство",
       "title_en": "Collectivization of Agriculture",
       "description_bg": "От 1948 до 1959 се провежда колективизация на селското стопанство, като частните земи се национализират.",
@@ -1304,7 +1304,7 @@
       "caption": ""
     },
     {
-      "date": "1950 – 1060",
+      "date": "1950-1060",
       "title_bg": "Масово жилищно строителство с панелни блокове",
       "title_en": "Mass Housing Construction with Panel Blocks",
       "description_bg": "От 1950 до 1060 започва масовото жилищно строителство с панелни блокове в големите градове.",
@@ -1404,10 +1404,10 @@
     },
     {
       "date": "05 ноември 1963",
-      "title_bg": "Тържествено откриване на МК 'Кремиковци'",
-      "title_en": "Inauguration of the 'Kremikovtsi' Complex",
-      "description_bg": "На 05 ноември 1963 се тържествено открива МК 'Кремиковци'.",
-      "description_en": "On 05 November 1963, the 'Kremikovtsi' complex is inaugurated.",
+      "title_bg": "Тържествено откриване на МК \"Кремиковци\"",
+      "title_en": "Inauguration of the \"Kremikovtsi\" Complex",
+      "description_bg": "На 05 ноември 1963 се тържествено открива МК \"Кремиковци\".",
+      "description_en": "On 05 November 1963, the \"Kremikovtsi\" complex is inaugurated.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/kremokovtsi_otkrivane.jpg",
       "caption": ""
     },
@@ -1422,10 +1422,10 @@
     },
     {
       "date": "октомври 1963",
-      "title_bg": "Първият български компютър „Витоша“",
-      "title_en": "The First Bulgarian Computer 'Vitosha'",
-      "description_bg": "През октомври 1963 г. България въвежда в експлоатация първия си електронен цифров компютър, наречен „Витоша“.",
-      "description_en": "In October 1963, Bulgaria introduced its first electronic digital computer, named 'Vitosha'.",
+      "title_bg": "Първият български компютър \"Витоша\"",
+      "title_en": "The First Bulgarian Computer \"Vitosha\"",
+      "description_bg": "През октомври 1963 г. България въвежда в експлоатация първия си електронен цифров компютър, наречен \"Витоша\".",
+      "description_en": "In October 1963, Bulgaria introduced its first electronic digital computer, named \"Vitosha\".",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/computer_Vitosha.jpg",
       "caption": ""
     },
@@ -1467,7 +1467,7 @@
       "caption": ""
     },
     {
-      "date": "октомври 1972 г.",
+      "date": "октомври 1972",
       "title_bg": "Откриване на Варненското златно съкровище",
       "title_en": "Discovery of the Varna Gold Treasure",
       "description_bg": "През октомври 1972 г. e открит Варненския халколитен некропол при изкопни работи в Западната промишлена зона на Варна. Съкровището, датирано между 4600 и 4200 г. пр. Хр., е признато за най-старото технологично обработено злато в света.",
@@ -1486,9 +1486,9 @@
     },
     {
       "date": "04 септември 1974",
-      "title_bg": "Откриване на АЕЦ 'Козлодуй'",
+      "title_bg": "Откриване на АЕЦ \"Козлодуй\"",
       "title_en": "Inauguration of the Kozloduy Nuclear Power Plant",
-      "description_bg": "На 04 септември 1974 е открит АЕЦ 'Козлодуй'.",
+      "description_bg": "На 04 септември 1974 е открит АЕЦ \"Козлодуй\".",
       "description_en": "On 04 September 1974, the Kozloduy Nuclear Power Plant was inaugurated.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/AEC_kozloduy_otkrivane.jpg",
       "caption": "Снимка: kznpp.org"
@@ -1504,28 +1504,28 @@
     },
     {
       "date": "04 октомври 1974",
-      "title_bg": "Начало на строителството на магистрала 'Хемус'",
+      "title_bg": "Начало на строителството на магистрала \"Хемус\"",
       "title_en": "Commencement of Construction of the Hemus Motorway",
-      "description_bg": "На 04 октомври 1974 официално започва строителството на магистрала 'Хемус', която трябва да свърже София с Варна.",
+      "description_bg": "На 04 октомври 1974 официално започва строителството на магистрала \"Хемус\", която трябва да свърже София с Варна.",
       "description_en": "On 04 October 1974, the construction of the Hemus Motorway, connecting Sofia with Varna, officially begins.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/hemus_purva_kopka_otkrivane.jpg",
       "caption": ""
     },
     {
       "date": "27 март 1975",
-      "title_bg": "Откриване на ТЕЦ 'Бобов дол'",
-      "title_en": "Inauguration of the 'Bobov Dol' Thermal Power Plant",
-      "description_bg": "На 27 март 1975 е тържествено открит ТЕЦ 'Бобов дол' – първата голяма ТЕЦ, изцяло проектирана от български специалисти.",
-      "description_en": "On 27 March 1975, the 'Bobov Dol' Thermal Power Plant was ceremoniously inaugurated – the first major thermal power plant entirely designed by Bulgarian experts.",
+      "title_bg": "Откриване на ТЕЦ \"Бобов дол\"",
+      "title_en": "Inauguration of the \"Bobov Dol\" Thermal Power Plant",
+      "description_bg": "На 27 март 1975 е тържествено открит ТЕЦ \"Бобов дол\" – първата голяма ТЕЦ, изцяло проектирана от български специалисти.",
+      "description_en": "On 27 March 1975, the \"Bobov Dol\" Thermal Power Plant was ceremoniously inaugurated – the first major thermal power plant entirely designed by Bulgarian experts.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/TEC_bobov_dol_otkrivane.jpg",
       "caption": ""
     },
     {
       "date": "септември 1976",
-      "title_bg": "Откриване на 'Аспаруховият мост' и плавателния канал във Варна",
-      "title_en": "Inauguration of the 'Asparuhov Bridge' and the Navigation Canal in Varna",
-      "description_bg": "През септември 1976 са открити 'Аспаруховият мост' и плавателният канал във Варна.",
-      "description_en": "In September 1976, the 'Asparuhov Bridge' and the navigation canal in Varna were inaugurated.",
+      "title_bg": "Откриване на \"Аспаруховият мост\" и плавателния канал във Варна",
+      "title_en": "Inauguration of the \"Asparuhov Bridge\" and the Navigation Canal in Varna",
+      "description_bg": "През септември 1976 са открити \"Аспаруховият мост\" и плавателният канал във Варна.",
+      "description_en": "In September 1976, the \"Asparuhov Bridge\" and the navigation canal in Varna were inaugurated.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/asparuhov_most_1976.jpg",
       "caption": ""
     },
@@ -1575,7 +1575,7 @@
       "caption": "Снимка: ndk.bg"
     },
     {
-      "date": "23 август 1981 г.",
+      "date": "23 август 1981",
       "title_bg": "Откриване на паметника Бузлуджа",
       "title_en": "Inauguration of the Buzludzha Monument",
       "description_bg": "На 23 август 1981 г. е открит паметникът Бузлуджа – символ на комунистическата епоха в България.",
@@ -1585,10 +1585,10 @@
     },        
     {
       "date": "1984",
-      "title_bg": "Пускане на първия от серията 'Правец – Правец 16'",
-      "title_en": "Release of the First Pravets-16 Computer",
-      "description_bg": "През 1984 излиза първият от серията 'Правец – Правец 16'.",
-      "description_en": "In 1984, the first computer from the Pravets – Pravets 16 series was released.",
+      "title_bg": "Пускане на първия от серията \"Правец\" – \"Правец 16\"",
+      "title_en": "Release of the First \"Pravets\" Computer",
+      "description_bg": "През 1984 излиза първият от серията \"Правец\" – \"Правец 16\".",
+      "description_en": "In 1984, the first computer from the Pravets series – \"Pravets 16\" was released.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/pravets16_1984.png",
       "caption": "Снимка: pravetz.info"
     },
@@ -1603,9 +1603,9 @@
     },
     {
       "date": "1987",
-      "title_bg": "Начало на строителството на АЕЦ 'Белене'",
+      "title_bg": "Начало на строителството на АЕЦ \"Белене\"",
       "title_en": "Commencement of the Belene Nuclear Power Plant Construction",
-      "description_bg": "През 1987 България започва строителството на АЕЦ 'Белене' с цел повишаване на енергийната сигурност на страната.",
+      "description_bg": "През 1987 България започва строителството на АЕЦ \"Белене\" с цел повишаване на енергийната сигурност на страната.",
       "description_en": "In 1987, Bulgaria begins the construction of the Belene Nuclear Power Plant to enhance the country's energy security.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/AEC_belene_izgrajdane.jpg",
       "caption": "Снимка: БТА"
@@ -1630,8 +1630,8 @@
     },
     {
       "date": "15 ноември 1990",
-      "title_bg": "Преименуване на Народна Република България в Република България",
-      "title_en": "Renaming from the People's Republic of Bulgaria to the Republic of Bulgaria",
+      "title_bg": "Преименуване на \"Народна Република България\" в \"Република България\"",
+      "title_en": "Renaming from the \"People's Republic of Bulgaria\" to the \"Republic of Bulgaria\"",
       "description_bg": "На 15 ноември 1990 Народна Република България се превръща в Република България.",
       "description_en": "On 15 November 1990, the People's Republic of Bulgaria transforms into the Republic of Bulgaria.",
       "image": "https://raw.githubusercontent.com/VT-storage/Storage_bgdated/refs/heads/main/Republic_of_Bulgaria.jpg",
@@ -1737,4 +1737,3 @@
       "caption": "Снимка: ankasam.org"
     }
   ]
-  
